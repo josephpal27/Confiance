@@ -1,3 +1,4 @@
+import AboutUs from '../components/about-us/AboutUs';
 import '../css/Home.css';
 import homeBanner from '/images/banners/home-banner.png';
 
@@ -13,6 +14,9 @@ const Home = () => {
                     <button>Talk To Our Experts</button>
                 </div>
             </section>
+
+            {/* About Us */}
+            <AboutUs />
         </>
     )
 }
