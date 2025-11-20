@@ -1,16 +1,42 @@
 .impact-created{
     background-color: #5b2096;
-    padding: 3rem 7%;
+    padding: 1.5rem 0 3rem 7%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
 }
 .impact-created .impact-content{
-    width: 45%;
+    width: 35%;
+    color: #fff;
+}
+.impact-created .impact-content h3{
+    font-size: calc(1.8rem + 0.5vw);
+    margin-top: 10rem;
+}
+.impact-created .impact-content p{
+    font-size: calc(0.65rem + 0.5vw);
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-weight: 400;
+    background-color: #300d53;
+    border-radius: 15px;
+    padding: 1rem 1rem 1.05rem 1rem;
 }
 .impact-created .impact-images{
-    width: 50%;
+    width: 60%;
+    padding: 5rem 7% 5rem 6%;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 1px solid #fff;
+    background-color: #542897;
 }
 .impact-created .impact-images img{
     width: 100%;
+}
+.impact-created #announce{
+    width: 28%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
