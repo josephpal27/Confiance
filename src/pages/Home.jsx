@@ -1,4 +1,5 @@
 import AboutUs from '../components/about-us/AboutUs';
+import ImpactCreated from '../components/impact-created/ImpactCreated';
 import '../css/Home.css';
 import homeBanner from '/images/banners/home-banner.png';
 
@@ -17,6 +18,11 @@ const Home = () => {
 
             {/* About Us */}
             <AboutUs />
+
+            {/* Impact Created & Certificates */}
+            <section className="impact-created-and-certificates">
+                <ImpactCreated />
+            </section>
         </>
     )
 }
