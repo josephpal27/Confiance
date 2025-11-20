@@ -1,7 +1,7 @@
 import AboutUs from '../components/about-us/AboutUs';
 import ImpactCreated from '../components/impact-created/ImpactCreated';
 import '../css/Home.css';
-import homeBanner from '/images/banners/home-banner.png';
+import homeBanner from '/images/banners/home-banner.avif';
 
 const Home = () => {
     return (

@@ -1,5 +1,5 @@
 import './AboutUs.css';
-import aboutImage from '../../assets/images/about-us.png';
+import aboutImage from '../../assets/images/about-us.avif';
 import { FaStar } from "react-icons/fa6";
 import { RiArrowDownWideFill } from "react-icons/ri";
 

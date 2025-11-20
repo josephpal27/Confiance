@@ -1,0 +1,16 @@
+.impact-created{
+    background-color: #5b2096;
+    padding: 3rem 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.impact-created .impact-content{
+    width: 45%;
+}
+.impact-created .impact-images{
+    width: 50%;
+}
+.impact-created .impact-images img{
+    width: 100%;
+}
