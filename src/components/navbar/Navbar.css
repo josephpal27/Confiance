@@ -1,12 +1,15 @@
 .navbar{
   padding: 0.8rem 7% !important;
-  background: linear-gradient(to bottom, #4c1783, #2e0e4f);
+  background: linear-gradient(to bottom, #571e94, #2e0e4f);
   width: 100%;
   box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.245);
   z-index: 10;
 }
 .navbar .nav-brand img{
   width: 60px;
+}
+.navbar .nav{
+  padding-left: 2.5rem;
 }
 .navbar .nav-link{
   color: #fff !important;
@@ -18,6 +21,21 @@
 /* .navbar .nav-link.active{
   background-color: #fff !important;
 } */
+.navbar .get-in-touch-btn{
+  background-color: #fff;
+  color: #2e0e4f;
+  text-decoration: none;
+  padding: 0.55rem 1.1rem;
+  border-radius: 30px;
+  font-weight: 550;
+  font-size: calc(0.55rem + 0.5vw);
+  transition: all 0.3s ease;
+}
+.navbar .get-in-touch-btn:hover{
+  background-color: #2e0e4f;
+  color: #fff;
+  box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
+}
 
 /* Media Queries */
 @media (max-width: 992px){
@@ -35,11 +53,11 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   .offcanvas{
-    background: #179cab;
+    background: #2e0e4f;
     width: 70% !important;
   }
   .offcanvas .offCanvasLogo{
-    width: 100px;
+    width: 60px;
   }
   .offcanvas .nav-link{
     color: white !important;

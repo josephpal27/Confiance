@@ -35,7 +35,7 @@ const MyNavbar = () => {
                 </Offcanvas.Header>
 
                 <Offcanvas.Body>
-                    <Nav className="justify-content-center flex-grow-1">
+                    <Nav className="justify-content-center flex-grow-1 nav">
                         <Nav.Link as={NavLink} to="/" onClick={handleClose}>
                             HOME
                         </Nav.Link>
@@ -50,7 +50,7 @@ const MyNavbar = () => {
                         </Nav.Link>
                     </Nav>
 
-                    {/* Right Side – Get In Touch Button */}
+                    {/* Right Side */}
                     <div className="right-btn-wrapper">
                         <NavLink to="/contact" className="get-in-touch-btn">
                             GET IN TOUCH
