@@ -13,10 +13,11 @@ body{
 }
 
 @font-face {
-    font-family: "Stretch-Pro", sans-serif;
-    src: url("./assets/fonts/StretchPro.otf") format("opentype");
+  font-family: "StretchPro";
+  src: url("./assets/fonts/stretch-pro.regular.ttf") format("truetype");
 }
 
+
 h1, h2, h3, h4, h5, h6{
-    font-family: "Stretch-Pro", sans-serif !important;
+    font-family: "StretchPro", sans-serif !important;
 }
