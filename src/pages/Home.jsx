@@ -1,5 +1,6 @@
 import AboutUs from '../components/about-us/AboutUs';
 import Certificates from '../components/certificates/Certificates';
+import OurClients from '../components/clients/OurClients';
 import ImpactCreated from '../components/impact-created/ImpactCreated';
 import '../css/Home.css';
 import homeBanner from '/images/banners/home-banner.avif';
@@ -25,6 +26,9 @@ const Home = () => {
                 <ImpactCreated />
                 <Certificates />
             </section>
+
+            {/* Our Clients */}
+            <OurClients />
         </>
     )
 }
