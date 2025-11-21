@@ -17,6 +17,8 @@ const OurClients = () => {
 
     const clientImages = Array.from({ length: 104 }, (_, i) => `/images/clients/${i + 1}.avif`);
 
+    const blackImages = [31, 32, 54, 69, 75, 83];
+
     return (
         <>
             <section className="our-clients">
@@ -52,11 +54,20 @@ const OurClients = () => {
                             768: { slidesPerView: 4 },
                         }}
                     >
-                        {clientImages.map((img, index) => (
-                            <SwiperSlide key={index}>
-                                <img src={img} alt="client-logo" loading="lazy" />
-                            </SwiperSlide>
-                        ))}
+                        {clientImages.map((img, index) => {
+                            const imageNumber = index + 1; // because index starts at 0
+                            
+                            return (
+                                <SwiperSlide key={index}>
+                                    <img
+                                        src={img}
+                                        loading="lazy"
+                                        alt="client"
+                                        className={blackImages.includes(imageNumber) ? "black" : ""}
+                                    />
+                                </SwiperSlide>
+                            );
+                        })}
                     </Swiper>
 
                     {/* Navigation Buttons */}
