@@ -45,3 +45,12 @@
     box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
 }
 /* Banner End */
+
+/* Impact Created & Certificates Start */
+.impact-created-and-certificates{
+    background-color: #5b2096;
+    background-image: url('../assets/images/glass-shape.avif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* Impact Created & Certificates End */
