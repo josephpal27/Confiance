@@ -17,10 +17,13 @@
     font-size: calc(1.6rem + 0.5vw);
     text-align: end;
 }
+.reviews-slider{
+    position: relative;
+}
 .reviews-slider .swiper-slide{
     display: flex;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 3rem 5rem;
 }
 .reviews-slider .swiper-slide .slide-image{
     width: 26%;
@@ -29,5 +32,42 @@
     width: 100%;
 }
 .reviews-slider .swiper-slide .slide-content{
-    width: 70%;
+    width: 71%;
+}
+.reviews-slider .swiper-slide .slide-content span:nth-child(1){
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 700;
+    display: block;
+}
+.reviews-slider .swiper-slide .slide-content span:nth-child(2){
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 600;
+    display: block;
+}
+.reviews-slider .swiper-slide .slide-content .rating{
+    margin-top: 0.3rem;
+}
+.reviews-slider .swiper-slide .slide-content .star{
+    font-size: calc(0.7rem + 0.5vw);
+}
+.reviews-slider .swiper-slide .slide-content p{
+    font-size: calc(0.6rem + 0.5vw);
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.reviews-slider .swiper-button-next,
+.reviews-slider .swiper-button-prev {
+  color: white;
+  top: 52%;
+  transform: translateY(-50%);
+  scale: 0.7;
+  position: absolute;
+  z-index: 10;
+}
+.reviews-slider .swiper-button-prev {
+  left: 0.5rem;
+}
+.reviews-slider .swiper-button-next {
+  right: 0.5rem;
 }
