@@ -2,6 +2,7 @@ import AboutUs from '../components/about-us/AboutUs';
 import OurAwards from '../components/awards/OurAwards';
 import Certificates from '../components/certificates/Certificates';
 import OurClients from '../components/clients/OurClients';
+import GetInTouch from '../components/get-in-touch/GetInTouch';
 import ImpactCreated from '../components/impact-created/ImpactCreated';
 import ClientReviews from '../components/reviews/ClientReviews';
 import '../css/Home.css';
@@ -37,6 +38,9 @@ const Home = () => {
 
             {/* Client Reviews */}
             <ClientReviews />
+
+            {/* Get In Touch */}
+            <GetInTouch />
         </>
     )
 }
