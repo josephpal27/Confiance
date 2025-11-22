@@ -33,6 +33,9 @@ const Home = () => {
 
             {/* Our Awards */}
             <OurAwards />
+
+            {/* Client Reviews */}
+            <ClientReviews />
         </>
     )
 }
