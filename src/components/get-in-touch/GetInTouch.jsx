@@ -1,9 +1,33 @@
 import './GetInTouch.css';
+import contactCircle from '../../assets/images/contact-circle.avif';
+import handImage from '../../assets/images/hand.avif';
+import lineImage from '../../assets/images/line-shape.avif';
 
 const GetInTouch = () => {
   return (
     <>
-      
+      <section className="get-in-touch">
+        <div className="get-in-touch-head">
+            <h6>Every Story Needs Telling and <br /> We Would Love to Help Tell Yours!</h6>
+            <p>Leave your details below to start a conversation</p>
+        </div>
+        <div className="get-in-touch-row">
+            <div className="get-in-touch-left">
+                <form action="">
+                    <input type="text" placeholder="Name" required />
+                    <input type="email" placeholder="E-mail" required />
+                    <input type="text" placeholder="Subject" />
+                    <textarea name="Message" placeholder="Hello, I am interested in..." required ></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div className="get-in-touch-right">
+                <img src={contactCircle} alt="Contact Circle" loading="lazy" />
+            </div>
+            <img src={handImage} alt="Hand" loading="lazy" id="hand" />
+            <img src={lineImage} alt="Line" loading="lazy" id="line-bg" />
+        </div>
+      </section>
     </>
   )
 }

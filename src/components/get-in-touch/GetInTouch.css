@@ -1,0 +1,120 @@
+.get-in-touch{
+    background-color: #5b2096;
+    padding: 4rem 7%;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.get-in-touch-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get-in-touch-head h6{
+    font-size: calc(1.8rem + 0.5vw);
+    text-align: center;
+}
+.get-in-touch-head p{
+    font-size: calc(1rem + 0.5vw);
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0.3rem;
+}
+.get-in-touch-row{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.get-in-touch-row{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.get-in-touch-row .get-in-touch-left{
+    width: 40%;
+}
+.get-in-touch-row .get-in-touch-left form{
+    display: flex;
+    flex-direction: column;
+}
+.get-in-touch-row .get-in-touch-left form input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    padding: 0 0 2rem 0;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-family: "StretchPro", sans-serif !important;
+    font-size: calc(1.1rem + 0.5vw);
+}
+.get-in-touch-row .get-in-touch-left form input::placeholder,
+.get-in-touch-row .get-in-touch-left form textarea::placeholder{
+    color: #fff;
+}
+.get-in-touch-row .get-in-touch-left form textarea{
+    background-color: #300d53;
+    padding: 1.2rem 1.5rem;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #fff;
+    margin-top: 1rem;
+    color: #fff;
+    min-height: 10rem;
+    resize: none;
+    font-size: calc(0.65rem + 0.5vw);
+}
+.get-in-touch-row .get-in-touch-left form button{
+    background-color: #fff;
+    color: #300d53;
+    width: max-content;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 550;
+    margin-top: 2rem;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+.get-in-touch-row .get-in-touch-left form button:hover{
+    background-color: #2e0e4f;
+    color: #fff;
+    box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
+}
+.get-in-touch-row .get-in-touch-left form button:active{
+    scale: 0.95;
+}
+.get-in-touch-row .get-in-touch-right{
+    width: 40%;
+    position: relative;
+    z-index: 1;
+}
+.get-in-touch-row .get-in-touch-right img{
+    width: 100%;
+    animation: spin 60s linear infinite;
+    pointer-events: none;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.get-in-touch-row #hand{
+    width: 35%;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    bottom: 27%;
+    z-index: 1;
+}
+.get-in-touch-row #line-bg{
+    width: 80%;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+}

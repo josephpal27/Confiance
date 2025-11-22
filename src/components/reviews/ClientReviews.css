@@ -23,6 +23,7 @@
 .reviews-slider .swiper-slide{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 3rem 5rem;
 }
 .reviews-slider .swiper-slide .slide-image{
