@@ -3,6 +3,7 @@ import OurAwards from '../components/awards/OurAwards';
 import Certificates from '../components/certificates/Certificates';
 import OurClients from '../components/clients/OurClients';
 import ImpactCreated from '../components/impact-created/ImpactCreated';
+import ClientReviews from '../components/reviews/ClientReviews';
 import '../css/Home.css';
 import homeBanner from '/images/banners/home-banner.avif';
 

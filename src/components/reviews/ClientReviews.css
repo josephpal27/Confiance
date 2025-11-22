@@ -1,0 +1,33 @@
+.client-reviews{
+    background-color: #5b2096;
+    padding: 4rem 7%;
+}
+.client-reviews-container{
+    background-color: #300d53;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.client-reviews-head{
+    padding: 1rem 8rem 1rem 0;
+    border-bottom: 2px solid #fff;
+}
+.client-reviews-head h6{
+    font-size: calc(1.6rem + 0.5vw);
+    text-align: end;
+}
+.reviews-slider .swiper-slide{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.reviews-slider .swiper-slide .slide-image{
+    width: 26%;
+}
+.reviews-slider .swiper-slide .slide-image img{
+    width: 100%;
+}
+.reviews-slider .swiper-slide .slide-content{
+    width: 70%;
+}
