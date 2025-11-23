@@ -8,8 +8,7 @@ import "swiper/css/pagination";
 
 import { FaStar } from "react-icons/fa6";
 
-import reviewImage1 from '/images/reviews/1.webp';
-import reviewImage2 from '/images/reviews/2.webp';
+import {reviewsData} from './reviewsData';
 
 const ClientReviews = () => {
     return (
@@ -39,41 +38,24 @@ const ClientReviews = () => {
                                 }}
                             >
 
-                                <SwiperSlide>
-                                    <div className="slide-image">
-                                        <img src={reviewImage1} alt="Client Image" loading="lazy" />
-                                    </div>
-                                    <div className="slide-content">
-                                        <span>H. Deniz Ersoz</span>
-                                        <span>Culture & Tourism Counsellor, Embassy of the Republic of Turkiye</span>
-                                        <div className="rating">
-                                            <FaStar className="star" />
-                                            <FaStar className="star" />
-                                            <FaStar className="star" />
-                                            <FaStar className="star" />
-                                            <FaStar className="star" />
+                                {reviewsData.map((item, index) => (
+                                    <SwiperSlide key={index}>
+                                        <div className="slide-image">
+                                            <img src={item.image} alt={item.name} loading="lazy" />
                                         </div>
-                                        <p>Choosing to collaborate with Confiance was driven by Bushra’s profound insight into the sentiments of Indian consumers regarding international travel. I take great satisfaction in recognizing them as an exemplary partner for the India campaign of Türkiye Tourism. Throughout our association, Confiance has consistently provided valuable strategic inputs and leveraged relationships to establish robust awareness around Türkiye's locations as premier travel, leisure, and wedding destinations. I anticipate many more years of a fruitful partnership with Confiance, relying on their expertise as our strategic communication advisor for India.</p>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div className="slide-image">
-                                        <img src={reviewImage2} alt="Client Image" loading="lazy" />
-                                    </div>
-                                    <div className="slide-content">
-                                        <span>Eshwar K Vikas</span>
-                                        <span>Co-founder, Beyond Appliances</span>
-                                        <div className="rating">
-                                            <FaStar className="star" />
-                                            <FaStar className="star" />
-                                            <FaStar className="star" />
-                                            <FaStar className="star" />
-                                            <FaStar className="star" />
+                                        <div className="slide-content">
+                                            <span>{item.name}</span>
+                                            <span>{item.designation}</span>
+                                            <div className="rating">
+                                                {[...Array(5)].map((_, i) => (
+                                                    <FaStar key={i} className="star" />
+                                                ))}
+                                            </div>
+                                            <p>{item.review}</p>
                                         </div>
-                                        <p>It’s rare to find a PR team that feels like an extension of your own organization. Confiance has been hands-on, responsive, and aligned with our vision from Day 1. We’ve seen real momentum in our media coverage, thanks to their clear understanding of our brand story and their role in helping us gain meaningful visibility.</p>
-                                    </div>
-                                </SwiperSlide>
-                                
+                                    </SwiperSlide>
+                                ))}
+
                             </Swiper>
 
                             {/* Navigation Buttons */}
