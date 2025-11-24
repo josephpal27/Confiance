@@ -7,7 +7,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import { FaStar } from "react-icons/fa6";
-
 import {reviewsData} from './reviewsData';
 
 const ClientReviews = () => {
