@@ -1,6 +1,7 @@
 .our-clients{
     background-color: #5b2096;
     padding: 1rem 7%;
+    overflow: hidden;
 }
 .our-clients h5{
     font-size: calc(1.8rem + 0.5vw);

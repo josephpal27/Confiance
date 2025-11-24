@@ -6,7 +6,7 @@ const OurAwards = () => {
     return (
         <>
             <section className="our-awards">
-                <h6>Our Awards</h6>
+                <h6 data-aos="fade-right">Our Awards</h6>
                 <div className="awards-tabbing-container">
                     <Tab.Container defaultActiveKey="tabOne">
                         {/* Tabs Content */}

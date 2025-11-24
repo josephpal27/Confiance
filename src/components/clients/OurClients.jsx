@@ -22,7 +22,7 @@ const OurClients = () => {
     return (
         <>
             <section className="our-clients">
-                <h5>Our Clients</h5>
+                <h5 data-aos="zoom-out">Our Clients</h5>
 
                 <div className="our-clients-slider">
                     <Swiper

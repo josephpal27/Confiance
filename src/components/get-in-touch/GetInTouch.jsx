@@ -8,11 +8,11 @@ const GetInTouch = () => {
     <>
       <section className="get-in-touch">
         <div className="get-in-touch-head">
-            <h6>Every Story Needs Telling and <br /> We Would Love to Help Tell Yours!</h6>
-            <p>Leave your details below to start a conversation</p>
+            <h6 data-aos="fade-down">Every Story Needs Telling and <br /> We Would Love to Help Tell Yours!</h6>
+            <p data-aos="fade">Leave your details below to start a conversation</p>
         </div>
         <div className="get-in-touch-row">
-            <div className="get-in-touch-left">
+            <div className="get-in-touch-left" data-aos="fade">
                 <form action="">
                     <input type="text" placeholder="Name" required />
                     <input type="email" placeholder="E-mail" required />
