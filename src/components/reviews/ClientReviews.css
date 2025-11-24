@@ -58,7 +58,7 @@
 }
 
 .reviews-slider .swiper-button-next,
-.reviews-slider .swiper-button-prev {
+.reviews-slider .swiper-button-prev{
   color: white;
   top: 52%;
   transform: translateY(-50%);
@@ -66,9 +66,29 @@
   position: absolute;
   z-index: 10;
 }
-.reviews-slider .swiper-button-prev {
+.reviews-slider .swiper-button-prev{
   left: 0.5rem;
 }
-.reviews-slider .swiper-button-next {
+.reviews-slider .swiper-button-next{
   right: 0.5rem;
+}
+
+.custom-pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin: 1.5rem 0 2rem 0;
+}
+.custom-pagination .swiper-pagination-bullet{
+    width: 15px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.custom-pagination .swiper-pagination-bullet-active{
+    background-color: #fff;
+    width: 35px;
 }

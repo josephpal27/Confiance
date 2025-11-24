@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import { FaStar } from "react-icons/fa6";
-import {reviewsData} from './reviewsData';
+import { reviewsData } from './reviewsData';
 
 const ClientReviews = () => {
     return (
@@ -26,6 +26,7 @@ const ClientReviews = () => {
                                 loop={true}
                                 grabCursor={true}
                                 spaceBetween={0}
+                                autoHeight={true}
                                 speed={1000}
                                 autoplay={{
                                     delay: 3000,
@@ -34,6 +35,10 @@ const ClientReviews = () => {
                                 navigation={{
                                     nextEl: ".swiper-button-next",
                                     prevEl: ".swiper-button-prev",
+                                }}
+                                pagination={{
+                                    el: ".custom-pagination",
+                                    clickable: true,
                                 }}
                             >
 
@@ -60,6 +65,9 @@ const ClientReviews = () => {
                             {/* Navigation Buttons */}
                             <div className="swiper-button-next"></div>
                             <div className="swiper-button-prev"></div>
+
+                            {/* Custom Pagination */}
+                            <div className="custom-pagination"></div>
                         </div>
                     </div>
                 </div>
