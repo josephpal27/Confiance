@@ -9,10 +9,13 @@ import "swiper/css/pagination";
 import { FaStar } from "react-icons/fa6";
 import { reviewsData } from './reviewsData';
 
+import reviewPaper from '../../assets/images/review-paper.avif';
+
 const ClientReviews = () => {
     return (
         <>
             <section className="client-reviews">
+                <img src={reviewPaper} alt="Image" loading="lazy" id="review-paper" />
                 <div className="client-reviews-container">
                     <div className="client-reviews-head">
                         <h6 data-aos="fade-left">Client Reviews</h6>

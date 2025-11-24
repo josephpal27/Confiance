@@ -1,6 +1,14 @@
 .client-reviews{
     background-color: #5b2096;
-    padding: 4rem 7%;
+    padding: 12rem 7% 4rem 7%;
+    position: relative;
+}
+.client-reviews #review-paper{
+    width: 25%;
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    z-index: 10;
 }
 .client-reviews-container{
     background-color: #300d53;

@@ -8,7 +8,7 @@ const GetInTouch = () => {
     <>
       <section className="get-in-touch">
         <div className="get-in-touch-head">
-            <h6 data-aos="fade-down">Every Story Needs Telling and <br /> We Would Love to Help Tell Yours!</h6>
+            <h6 data-aos="fade">Every Story Needs Telling and <br /> We Would Love to Help Tell Yours!</h6>
             <p data-aos="fade">Leave your details below to start a conversation</p>
         </div>
         <div className="get-in-touch-row">
