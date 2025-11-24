@@ -7,8 +7,8 @@ const ImpactCreated = () => {
     <>
       <section className="impact-created">
         <div className="impact-content">
-            <h3>Impact Created</h3>
-            <p>Founded by seasoned publicist Bushra Ismail, Confiance Communications has established a strong foothold as one of India's most trusted and outcome-driven PR agencies.</p>
+            <h3 data-aos="fade-up">Impact Created</h3>
+            <p data-aos="fade">Founded by seasoned publicist Bushra Ismail, Confiance Communications has established a strong foothold as one of India's most trusted and outcome-driven PR agencies.</p>
         </div>
         <div className="impact-images">
             <div className="impact-image-container">
