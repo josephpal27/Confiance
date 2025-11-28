@@ -25,14 +25,7 @@
     display: flex;
     flex-direction: column;
 }
-.our-awards .awards-tabbing-container .tab-head{
-    width: 53%;
-    border: none;
-    display: flex;
-    flex-direction: column;
-}
 .our-awards .awards-tabbing-container .nav-link{
-    background: rgba(255, 255, 255, 0.1);
     background: #300d53;
     padding: 1.35rem 1.5rem;
     border-radius: 2px;
@@ -44,4 +37,39 @@
 }
 .our-awards .awards-tabbing-container .nav-link.active{
     background: linear-gradient(180deg, #836c9ad3 0%, #300d53 80%);
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .our-awards{
+        padding: 3.5rem 7%;
+    }
+    .our-awards h6{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .our-awards .awards-tabbing-container{
+        margin-top: 2.5rem;
+    }
+    .our-awards .awards-tabbing-container .nav-link{
+        padding: 1.25rem 1.4rem;
+        font-size: calc(0.65rem + 0.5vw);
+        margin-bottom: 0.84rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .our-awards{
+        padding: 3rem 7%;
+    }
+    .our-awards h6{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .our-awards .awards-tabbing-container{
+        margin-top: 2.2rem;
+    }
+    .our-awards .awards-tabbing-container .nav-link{
+        padding: 1.1rem 1.2rem;
+        font-size: calc(0.6rem + 0.5vw);
+        margin-bottom: 0.7rem;
+    }
 }
