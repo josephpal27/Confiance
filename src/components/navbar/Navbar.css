@@ -17,10 +17,23 @@
   font-size: calc(0.55rem + 0.5vw);
   margin: 0 1.5rem;
   padding: 0 !important;
+  position: relative;
 }
-/* .navbar .nav-link.active{
-  background-color: #fff !important;
-} */
+ .navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+  width: 0;
+  height: 1px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+.navbar .nav-link:hover::after {
+  width: 50%;
+}
 .navbar .get-in-touch-btn{
   background-color: #fff;
   color: #2e0e4f;
@@ -71,44 +84,10 @@
   }
 }
 
-/* @media screen and (min-width: 1230px) and (max-width: 1399px) {
-  .navbar{
-    padding: 0.7rem 7% !important;
-  }
-  .navbar .nav-brand img{
-    width: 137px;
-  }
-  .navbar .nav-link{
-    font-size: calc(0.5rem + 0.5vw);
-    margin-left: 0.7rem;
-    padding: 0.35rem 0.65rem !important;
-    border: 2.5px solid transparent;
-  }
-  .navbar .nav-link.active{
-    border: 2.5px solid #179cab;
-  }
-  .navbar .nav-link:hover{
-    border: 2.5px solid #179cab;
-  }
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+  
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-  .navbar{
-    padding: 0.6rem 7% !important;
-  }
-  .navbar .nav-brand img{
-    width: 120px;
-  }
-  .navbar .nav-link{
-    font-size: calc(0.45rem + 0.5vw);
-    margin-left: 0.6rem;
-    padding: 0.28rem 0.55rem !important;
-    border: 2px solid transparent;
-  }
-  .navbar .nav-link.active{
-    border: 2px solid #179cab;
-  }
-  .navbar .nav-link:hover{
-    border: 2px solid #179cab;
-  }
-} */
+  
+}

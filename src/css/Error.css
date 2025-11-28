@@ -1,0 +1,24 @@
+.error{
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5b2096;
+}
+.error h1{
+    color: #fff;
+    font-size: calc(2.5rem + 0.5vw);
+    margin-top: -2rem;
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .error h1{
+        font-size: calc(2.3rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .error h1{
+        font-size: calc(2rem + 0.5vw);
+    }
+}
