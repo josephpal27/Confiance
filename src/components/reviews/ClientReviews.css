@@ -100,3 +100,108 @@
     background-color: #fff;
     width: 35px;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .client-reviews{
+        padding: 11rem 7% 3.5rem 7%;
+    }
+    .client-reviews #review-paper{
+        top: -2.2rem;
+    }
+    .client-reviews-container{
+        border-radius: 28px;
+    }
+    .client-reviews-head{
+        padding: 0.9rem 7rem 0.9rem 0;
+        border-bottom: 1.9px solid #fff;
+    }
+    .client-reviews-head h6{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide{
+        padding: 2.8rem 4.8rem;
+    }
+    .reviews-slider .swiper-slide .slide-content span:nth-child(1){
+        font-size: calc(0.95rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide .slide-content span:nth-child(2){
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide .slide-content .star{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide .slide-content p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 0.9rem;
+    }
+
+    .reviews-slider .swiper-button-next,
+    .reviews-slider .swiper-button-prev{
+        scale: 0.65;
+    }
+
+    .custom-pagination{
+        gap: 2.5px;
+        margin: 1rem 0 1.5rem 0;
+    }
+    .custom-pagination .swiper-pagination-bullet{
+        width: 13px;
+        height: 3.5px;
+    }
+    .custom-pagination .swiper-pagination-bullet-active{
+        width: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .client-reviews{
+        padding: 10rem 7% 3rem 7%;
+    }
+    .client-reviews #review-paper{
+        top: -2.7rem;
+    }
+    .client-reviews-container{
+        border-radius: 25px;
+    }
+    .client-reviews-head{
+        padding: 0.8rem 6rem 0.8rem 0;
+        border-bottom: 1.5px solid #fff;
+    }
+    .client-reviews-head h6{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide{
+        padding: 2.5rem 4.5rem;
+    }
+    .reviews-slider .swiper-slide .slide-content span:nth-child(1){
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide .slide-content span:nth-child(2){
+        font-size: calc(0.55rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide .slide-content .star{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide .slide-content p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+
+    .reviews-slider .swiper-button-next,
+    .reviews-slider .swiper-button-prev{
+        scale: 0.6;
+    }
+
+    .custom-pagination{
+        gap: 1.8px;
+        margin: 0.5rem 0 1.3rem 0;
+    }
+    .custom-pagination .swiper-pagination-bullet{
+        width: 10px;
+        height: 2.8px;
+    }
+    .custom-pagination .swiper-pagination-bullet-active{
+        width: 25px;
+    }
+}
