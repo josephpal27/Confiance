@@ -73,3 +73,28 @@
         margin-bottom: 0.7rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .our-awards{
+        padding: 2rem 1rem;
+    }
+    .our-awards h6{
+        font-size: calc(1.4rem + 0.5vw);
+        text-align: center;
+    }
+    .our-awards .awards-tabbing-container{
+        margin-top: 2rem;
+    }
+    .our-awards .awards-tabbing-container .tab-content{
+        width: 100%;
+    }
+    .our-awards .awards-tabbing-container .tab-head{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .our-awards .awards-tabbing-container .nav-link{
+        padding: 0.9rem 1rem;
+        font-size: calc(0.9rem + 0.5vw);
+        margin-bottom: 0.5rem;
+    }
+}
