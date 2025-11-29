@@ -205,3 +205,53 @@
         width: 25px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .client-reviews{
+        padding: 10rem 1rem 2rem 1rem;
+    }
+    .client-reviews #review-paper{
+        width: 50%;
+        top: -1.5rem;
+    }
+    .client-reviews-container{
+        border-radius: 20px;
+    }
+    .client-reviews-head{
+        padding: 0.8rem 1rem 0.5rem 0;
+    }
+    .client-reviews-head h6{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide{
+        padding: 1rem 1rem;
+    }
+    .reviews-slider .swiper-slide .slide-image{
+        width: 100%;
+    }
+    .reviews-slider .swiper-slide .slide-content{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .reviews-slider .swiper-slide .slide-content span:nth-child(1){
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide .slide-content span:nth-child(2){
+        font-size: calc(0.85rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide .slide-content .star{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    .reviews-slider .swiper-slide .slide-content p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+
+    .reviews-slider .swiper-button-next,
+    .reviews-slider .swiper-button-prev{
+        display: none;
+    }
+
+    .custom-pagination{
+        display: none;
+    }
+}
