@@ -4,11 +4,13 @@
     justify-content: center;
     align-items: center;
     background-color: #5b2096;
+    padding: 0 2rem;
 }
 .error h1{
     color: #fff;
     font-size: calc(2.5rem + 0.5vw);
     margin-top: -2rem;
+    text-align: center;
 }
 
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
@@ -20,5 +22,11 @@
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .error h1{
         font-size: calc(2rem + 0.5vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .error h1{
+        font-size: calc(1.8rem + 0.5vw);
     }
 }
