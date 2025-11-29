@@ -73,3 +73,28 @@
         margin-top: 3rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .certificates{
+        padding: 2rem 1rem 10rem 1rem;
+    }
+    .certificates h4{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-bottom: 1.2rem;
+    }
+    .certificates span{
+        font-size: calc(0.95rem + 0.5vw);
+    }
+    .certificates p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+    .certificates img{
+        margin-top: 1.5rem;
+        width: 70%;
+    }
+    .certificates #microphone{
+        width: 40%;
+    }
+}
