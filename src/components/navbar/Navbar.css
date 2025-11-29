@@ -53,10 +53,10 @@
 /* Media Queries */
 @media (max-width: 992px) {
   .navbar {
-    padding: 0.8rem 1rem !important;
+    padding: 0.5rem 1rem !important;
   }
   .navbar .nav-brand img {
-    width: 50px;
+    width: 55px;
   }
   .navbar-toggler {
     border: none !important;
@@ -70,17 +70,35 @@
     width: 70% !important;
   }
   .offcanvas .offCanvasLogo {
-    width: 60px;
+    width: 55px;
   }
   .offcanvas .nav-link {
-    color: white !important;
-    margin: 0.4rem 0;
+    color: #fff !important;
+    margin: 0.5rem 0;
     font-size: calc(0.9rem + 0.5vw);
     font-weight: 600;
     width: max-content;
   }
   .offcanvas .nav-link.active {
     border-bottom: 2px solid #fff;
+  }
+  .offcanvas .get-in-touch-btn {
+    background-color: #fff;
+    color: #2e0e4f;
+    text-decoration: none;
+    padding: 0.55rem 1.1rem;
+    border-radius: 6px;
+    font-weight: 550;
+    font-size: calc(0.9rem + 0.5vw);
+    transition: all 0.3s ease;
+    margin-top: 1.5rem;
+    display: block;
+    width: max-content;
+  }
+  .offcanvas .get-in-touch-btn:active{
+    background-color: #2a0d47;
+    color: #fff;
+    box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
   }
 }
 
