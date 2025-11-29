@@ -179,3 +179,59 @@
         margin-top: 1.6rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .get-in-touch{
+        padding: 2rem 1rem 3rem 1rem;
+    }
+    .get-in-touch-head h6{
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    .get-in-touch-head h6 br{
+        display: none;
+    }
+    .get-in-touch-head p{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .get-in-touch-row{
+        margin-top: 3rem;
+    }
+    .get-in-touch-row .get-in-touch-left{
+        width: 100%;
+    }
+    .get-in-touch-row .get-in-touch-left form input{
+        border-bottom: 1.7px solid #fff;
+        padding: 0 0 1.3rem 0;
+        margin-bottom: 0.9rem;
+        font-size: calc(1rem + 0.5vw);
+    }
+    .get-in-touch-row .get-in-touch-left form textarea{
+        padding: 0.8rem 1.1rem;
+        margin-top: 0.8rem;
+        min-height: 10rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .get-in-touch-row .get-in-touch-left form button{
+        padding: 0.8rem 1.5rem;
+        font-size: calc(0.95rem + 0.5vw);
+        margin-top: 1.5rem;
+    }
+    .get-in-touch-row .get-in-touch-right{
+        width: 100%;
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: end;
+        padding-right: 0.5rem;
+    }
+    .get-in-touch-row .get-in-touch-right img{
+        width: 50%;
+    }
+    .get-in-touch-row #hand{
+        width: 38%;
+        bottom: 11%;
+    }
+    .get-in-touch-row #line-bg{
+        width: 100%;
+        bottom: -5rem;
+    }
+}
