@@ -50,3 +50,74 @@ footer .copyright p{
     text-align: center;
     margin: 0;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    footer .foot-content{
+        padding: 3rem 7% 2rem 7%;
+    }
+    footer .foot-content .foot-left img{
+        width: 72px;
+    }
+    footer .foot-content .foot-left p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 1.4rem;
+    }
+    footer .foot-content .foot-right{
+        margin-top: 0.15rem;
+    }
+    footer .foot-content .foot-right a{
+        gap: 0.9rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    footer .foot-content .foot-right .foot-icon{
+        font-size: calc(0.85rem + 0.5vw);
+    }
+    footer .foot-content .foot-right a:nth-child(1) .foot-icon{
+        font-size: calc(1.25rem + 0.5vw);
+    }
+    footer .foot-content .foot-right a:nth-child(2) .foot-icon{
+        font-size: calc(0.75rem + 0.5vw);
+    }
+    footer .copyright{
+        padding: 0.9rem 0;
+    }
+    footer .copyright p{
+        font-size: calc(0.5rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    footer .foot-content{
+        padding: 2.5rem 7% 1.5rem 7%;
+    }
+    footer .foot-content .foot-left img{
+        width: 65px;
+    }
+    footer .foot-content .foot-left p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 1.3rem;
+    }
+    footer .foot-content .foot-right{
+        margin-top: 0.1rem;
+    }
+    footer .foot-content .foot-right a{
+        gap: 0.8rem;
+        font-size: calc(0.55rem + 0.5vw);
+    }
+    footer .foot-content .foot-right .foot-icon{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    footer .foot-content .foot-right a:nth-child(1) .foot-icon{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    footer .foot-content .foot-right a:nth-child(2) .foot-icon{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    footer .copyright{
+        padding: 0.8rem 0;
+    }
+    footer .copyright p{
+        font-size: calc(0.45rem + 0.5vw);
+    }
+}
