@@ -121,3 +121,45 @@ footer .copyright p{
         font-size: calc(0.45rem + 0.5vw);
     }
 }
+
+@media screen and (max-width: 768px) {
+    footer .foot-content{
+        padding: 1.5rem 1rem 1.5rem 1rem;
+    }
+    footer .foot-content .foot-left{
+        width: 100%;
+    }
+    footer .foot-content .foot-left img{
+        width: 60px;
+    }
+    footer .foot-content .foot-left p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 1.2rem;
+    }
+    footer .foot-content .foot-right{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    footer .foot-content .foot-right a{
+        gap: 0.6rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    footer .foot-content .foot-right .foot-icon{
+        font-size: calc(1rem + 0.5vw);
+    }
+    footer .foot-content .foot-right a:nth-child(1) .foot-icon{
+        font-size: calc(1.9rem + 0.5vw);
+    }
+    footer .foot-content .foot-right a:nth-child(2) .foot-icon{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    footer .copyright{
+        padding: 0.6rem 0;
+    }
+    footer .copyright p{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    footer .copyright p span{
+        display: none;
+    }
+}
