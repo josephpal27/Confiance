@@ -29,7 +29,7 @@ const ClientReviews = () => {
                                 loop={true}
                                 grabCursor={true}
                                 spaceBetween={0}
-                                autoHeight={true}
+                                // autoHeight={true}
                                 speed={1000}
                                 autoplay={{
                                     delay: 3000,
