@@ -129,3 +129,37 @@
         font-size: calc(1.3rem + 0.5vw);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .about-us{
+        padding: 1.5rem 0 1.5rem 0;
+    }
+    .about-us-line-container{
+        margin-top: 3rem;
+    }
+    .about-us-line-container .about-line{
+        padding: 0.5rem 0.5rem 0.6rem 0.5rem;
+        margin-bottom: 0.5rem;
+        gap: 0.5rem;
+    }
+    .about-us-line-container .about-line p{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .about-us-line-container .about-rounded-image{
+        width: 50%;
+    }
+    .about-us-content{
+        padding: 3.5rem 1rem 0 1rem;
+    }
+    .about-us-content h2{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .about-us-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        width: 100%;
+        margin: 0.7rem auto 0.3rem;
+    }
+    .about-us-content .down-icon{
+        font-size: calc(1.7rem + 0.5vw);
+    }
+}
