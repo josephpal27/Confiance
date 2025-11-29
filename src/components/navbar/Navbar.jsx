@@ -30,7 +30,9 @@ const MyNavbar = () => {
             >
                 <Offcanvas.Header>
                     <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">
-                        <img src={logo} alt="logo" className="offCanvasLogo" />
+                        <Nav.Link as={NavLink} to="/" onClick={handleClose} style={{border: 'none'}} >
+                            <img src={logo} alt="logo" className="offCanvasLogo" />
+                        </Nav.Link>
                     </Offcanvas.Title>
                 </Offcanvas.Header>
 
@@ -52,7 +54,7 @@ const MyNavbar = () => {
 
                     {/* Right Side */}
                     <div className="right-btn-wrapper">
-                        <NavLink to="/contact" className="get-in-touch-btn">
+                        <NavLink to="/contact" className="get-in-touch-btn" onClick={handleClose}>
                             GET IN TOUCH
                         </NavLink>
                     </div>
