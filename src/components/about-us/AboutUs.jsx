@@ -35,7 +35,7 @@ const AboutUs = () => {
         </div>
         <div className="about-us-content">
             <h2 data-aos="fade-up">About Us</h2>
-            <p data-aos="fade">Founded by seasoned publicist Bushra Ismail, Confiance Communications has established a strong foothold as one of India's most trusted and outcome-driven PR agencies, particularly within the startup and venture capital ecosystems.With its excellent track record of working with over 30 VCs and 90 businesses across stages of growth, Confiance has till date fostered 10,000+ unique brand stories, and amped up visibility for its clients among 15 million+ stakeholders. The agency has become the go-to partner for brands seeking cutting-edge PR strategies, impactful public image transformations, and uncontested thought leadership positioning.</p>
+            <p data-aos="fade">Founded by seasoned publicist Bushra Ismail, Confiance Communications has established a strong foothold as one of India's most trusted and outcome-driven PR agencies, particularly within the startup and venture capital ecosystems. With its excellent track record of working with over 30 VCs and 90 businesses across stages of growth, Confiance has till date fostered 10,000+ unique brand stories, and amped up visibility for its clients among 15 million+ stakeholders. The agency has become the go-to partner for brands seeking cutting-edge PR strategies, impactful public image transformations, and uncontested thought leadership positioning.</p>
             <RiArrowDownWideFill className="down-icon" data-aos="fade"/>
         </div>
       </section>
