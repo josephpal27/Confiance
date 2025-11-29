@@ -22,9 +22,9 @@
   align-items: center;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
   width: 260px;
-  height: 260px;
   background: linear-gradient(180deg, #836c9ad3 -10%, #300d53 95%);
   backdrop-filter: blur(10px);
+  aspect-ratio: 1/1;
 }
 .our-clients .swiper .swiper-slide img {
   width: 80%;
@@ -65,7 +65,6 @@
   }
   .our-clients .swiper .swiper-slide {
     width: 260px;
-    height: 240px;
   }
   .our-clients .swiper-button-next,
   .our-clients .swiper-button-prev {
@@ -93,7 +92,6 @@
   }
   .our-clients .swiper .swiper-slide {
     width: 260px;
-    height: 210px;
   }
   .our-clients .swiper-button-next,
   .our-clients .swiper-button-prev {
@@ -105,5 +103,27 @@
   }
   .our-clients .swiper-button-next {
     right: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .our-clients{
+    padding: 3.5rem 1rem 1rem 1rem;
+  }
+  .our-clients h5{
+    font-size: calc(1.4rem + 0.5vw);
+  }
+
+  .our-clients .swiper {
+    width: 98%;
+    padding: 1.7rem 0;
+  }
+  .our-clients .swiper .swiper-slide {
+    width: 300px;
+    height: auto;
+  }
+  .our-clients .swiper-button-next,
+  .our-clients .swiper-button-prev {
+    display: none;
   }
 }
