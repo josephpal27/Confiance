@@ -22,6 +22,7 @@
   align-items: center;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
   width: 260px;
+  border-radius: 5px;
   /* background: linear-gradient(180deg, #836c9ad3 -10%, #300d53 95%); */
   background: linear-gradient(180deg, #ba7d3c -10%, #703f0f 95%);
   backdrop-filter: blur(10px);

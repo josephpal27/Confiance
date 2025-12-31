@@ -36,7 +36,8 @@
     margin-bottom: 1rem;
 }
 .our-awards .awards-tabbing-container .nav-link.active{
-    background: linear-gradient(180deg, #836c9ad3 0%, #300d53 80%);
+    /* background: linear-gradient(180deg, #836c9ad3 0%, #300d53 80%); */
+    background: linear-gradient(180deg, #ba7d3c 0%, #703f0f 80%);
 }
 
 /* Media Queries */
