@@ -56,15 +56,17 @@ const OurClients = () => {
                     >
                         {clientImages.map((img, index) => {
                             const imageNumber = index + 1; // because index starts at 0
-                            
+
                             return (
                                 <SwiperSlide key={index}>
-                                    <img
-                                        src={img}
-                                        loading="lazy"
-                                        alt="client"
-                                        className={blackImages.includes(imageNumber) ? "black" : ""}
-                                    />
+                                    <div className="image-box">
+                                        <img
+                                            src={img}
+                                            loading="lazy"
+                                            alt="client"
+                                            className={blackImages.includes(imageNumber) ? "black" : ""}
+                                        />
+                                    </div>
                                 </SwiperSlide>
                             );
                         })}
