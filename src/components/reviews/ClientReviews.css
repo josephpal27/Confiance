@@ -13,13 +13,13 @@
 .client-reviews-container{
     background-color: #300d53;
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid #d6954e;
     border-radius: 30px;
     overflow: hidden;
 }
 .client-reviews-head{
     padding: 1rem 8rem 1rem 0;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #d6954e;
 }
 .client-reviews-head h6{
     font-size: calc(1.6rem + 0.5vw);
