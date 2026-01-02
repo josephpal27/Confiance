@@ -49,7 +49,7 @@
 } */
 .our-clients .swiper-button-next,
 .our-clients .swiper-button-prev {
-  color: white;
+  color: #d48f46;
   top: 52%;
   transform: translateY(-10%);
   scale: 0.7;

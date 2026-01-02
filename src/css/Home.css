@@ -1,9 +1,12 @@
 /* Banner Start */
 .banner{
     position: relative;
+    min-height: 88vh;
 }
 .banner img{
     width: 100%;
+    min-height: 88vh;
+    object-fit: cover;
 }
 .banner .banner-content{
     width: 100%;
@@ -77,6 +80,12 @@
 }
 
 @media screen and (max-width: 768px) {
+    .banner{
+        min-height: auto;
+    }
+    .banner img{
+        min-height: auto;
+    }
     .banner .banner-content{
         background-color: #5b2096;
         height: auto;

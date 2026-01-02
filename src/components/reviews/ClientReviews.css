@@ -67,7 +67,7 @@
 
 .reviews-slider .swiper-button-next,
 .reviews-slider .swiper-button-prev{
-  color: white;
+  color: #d6954e;
   top: 52%;
   transform: translateY(-50%);
   scale: 0.7;
@@ -97,7 +97,7 @@
     transition: all 0.3s ease;
 }
 .custom-pagination .swiper-pagination-bullet-active{
-    background-color: #fff;
+    background-color: #d6954e;
     width: 35px;
 }
 
@@ -114,7 +114,7 @@
     }
     .client-reviews-head{
         padding: 0.9rem 7rem 0.9rem 0;
-        border-bottom: 1.9px solid #fff;
+        border-bottom: 1.9px solid #d6954e;
     }
     .client-reviews-head h6{
         font-size: calc(1.4rem + 0.5vw);
@@ -166,7 +166,7 @@
     }
     .client-reviews-head{
         padding: 0.8rem 6rem 0.8rem 0;
-        border-bottom: 1.5px solid #fff;
+        border-bottom: 1.5px solid #d6954e;
     }
     .client-reviews-head h6{
         font-size: calc(1.2rem + 0.5vw);
