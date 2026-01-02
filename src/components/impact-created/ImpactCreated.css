@@ -95,7 +95,7 @@
     }
     .impact-created .impact-content h3{
         font-size: calc(1.3rem + 0.5vw);
-        margin-top: 7.5rem;
+        margin-top: 0;
         text-align: center;
     }
     .impact-created .impact-content p{

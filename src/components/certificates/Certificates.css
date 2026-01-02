@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 768px) {
     .certificates{
-        padding: 2rem 1rem 10rem 1rem;
+        padding: 2rem 1rem 5rem 1rem;
     }
     .certificates h4{
         font-size: calc(1.4rem + 0.5vw);

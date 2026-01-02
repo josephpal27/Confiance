@@ -1,6 +1,6 @@
 .our-clients{
     background-color: #5b2096;
-    padding: 1rem 7%;
+    padding: 0 7% 1rem 7%;
     overflow: hidden;
 }
 .our-clients h5{
@@ -66,7 +66,7 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
   .our-clients{
-    padding: 0.9rem 7%;
+    padding: 0 7% 0.9rem 7%;
   }
   .our-clients h5{
     font-size: calc(1.6rem + 0.5vw);
@@ -96,7 +96,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
   .our-clients{
-    padding: 0.8rem 7%;
+    padding: 0 7% 0.8rem 7%;
   }
   .our-clients h5{
     font-size: calc(1.4rem + 0.5vw);
@@ -126,7 +126,7 @@
 
 @media screen and (max-width: 768px) {
   .our-clients{
-    padding: 3.5rem 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 1rem;
   }
   .our-clients h5{
     font-size: calc(1.4rem + 0.5vw);
