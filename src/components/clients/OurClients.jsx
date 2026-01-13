@@ -17,7 +17,7 @@ const OurClients = () => {
 
     const clientImages = Array.from({ length: 104 }, (_, i) => `/images/clients/${i + 1}.avif`);
 
-    const blackImages = [31, 32, 54, 69, 75, 83];
+    // const blackImages = [31, 32, 54, 69, 75, 83];
 
     return (
         <>
@@ -55,7 +55,7 @@ const OurClients = () => {
                         }}
                     >
                         {clientImages.map((img, index) => {
-                            const imageNumber = index + 1; // because index starts at 0
+                            // const imageNumber = index + 1; // because index starts at 0
 
                             return (
                                 <SwiperSlide key={index}>
@@ -64,7 +64,7 @@ const OurClients = () => {
                                             src={img}
                                             loading="lazy"
                                             alt="client"
-                                            className={blackImages.includes(imageNumber) ? "black" : ""}
+                                            // className={blackImages.includes(imageNumber) ? "black" : ""}
                                         />
                                     </div>
                                 </SwiperSlide>
