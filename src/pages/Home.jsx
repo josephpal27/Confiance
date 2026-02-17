@@ -15,13 +15,12 @@ const Home = () => {
             <section className="banner">
                 <img src={homeBanner} alt="Banner" loading="eager" />
                 <div className="banner-content">
-                    <h1 data-aos="fade-up">Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit, sed do</h1>
-                    <p data-aos="fade">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, nesciunt excepturi. Dicta quo et provident eos laborum debitis asperiores voluptatem qui, eaque possimus iste sit? Et inventore provident facilis sit!</p>
+                    <h1 data-aos="fade-up">Driving Visibility. Delivering Impact.</h1>
+                    <p data-aos="fade">Founded by seasoned publicist Bushra Ismail, Confiance Communications is a leading PR firm driving brand visibility for 250+ brands and 50+ VCs, shaping 15,000+ stories and reaching over 20 million stakeholders nationwide.</p>
                     <button>Talk To Our Experts</button>
                 </div>
             </section>
 
-            {/* About Us */}
             <AboutUs />
 
             {/* Impact Created & Certificates */}
@@ -30,16 +29,9 @@ const Home = () => {
                 <Certificates />
             </section>
 
-            {/* Our Clients */}
             <OurClients />
-
-            {/* Our Awards */}
             <OurAwards />
-
-            {/* Client Reviews */}
             <ClientReviews />
-
-            {/* Get In Touch */}
             <GetInTouch />
         </>
     )
