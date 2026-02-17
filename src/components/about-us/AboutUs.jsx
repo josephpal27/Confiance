@@ -9,25 +9,28 @@ const AboutUs = () => {
       <section className="about-us">
         <div className="about-us-line-container">
             <div className="about-line">
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
             </div>
             <div className="about-line">
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
             </div>
             <div className="about-line">
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
-                <p>Lorem ipsum <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
             </div>
             <div className="about-rounded-image">
                 <img src={aboutImage} alt="About Us" loading="lazy" data-aos="fade" data-aos-once="true" />
