@@ -1,0 +1,111 @@
+.home-banner{
+    position: relative;
+    min-height: 88vh;
+}
+.home-banner img{
+    width: 100%;
+    min-height: 88vh;
+    object-fit: cover;
+}
+.home-banner .banner-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 7%;
+}
+.home-banner .banner-content h1{
+    text-align: center;
+    font-size: calc(1.8rem + 0.5vw);
+}
+.home-banner .banner-content p{
+    text-align: center;
+    font-size: calc(0.65rem + 0.5vw);
+    width: 60%;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+.home-banner .banner-content button{
+    margin-top: 1rem;
+    background-color: #fff;
+    color: #2e0e4f;
+    border: none;
+    padding: 0.55rem 1.7rem;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: calc(0.65rem + 0.5vw);
+    transition: all 0.3s ease;
+}
+.home-banner .banner-content button:hover{
+    background-color: #2e0e4f;
+    color: #fff;
+    box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .home-banner .banner-content h1{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .home-banner .banner-content p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 0.9rem;
+    }
+    .home-banner .banner-content button{
+        margin-top: 0.9rem;
+        padding: 0.5rem 1.6rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .home-banner .banner-content h1{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .home-banner .banner-content p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+    .home-banner .banner-content button{
+        margin-top: 0.7rem;
+        padding: 0.45rem 1.5rem;
+        font-size: calc(0.55rem + 0.5vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-banner{
+        min-height: auto;
+    }
+    .home-banner img{
+        min-height: auto;
+    }
+    .home-banner .banner-content{
+        background-color: #5b2096;
+        height: auto;
+        position: relative;
+        padding: 0 1rem;
+    }
+    .home-banner .banner-content h1{
+        font-size: calc(1.1rem + 0.5vw);
+        margin-top: -5.5rem;
+    }
+    .home-banner .banner-content h1 br{
+        display: none;
+    }
+    .home-banner .banner-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        width: 100%;
+        margin-top: 1.2rem;
+    }
+    .home-banner .banner-content button{
+        margin-top: 0.5rem;
+        padding: 0.55rem 1.6rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+}
