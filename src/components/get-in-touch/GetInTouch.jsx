@@ -6,7 +6,7 @@ import lineImage from '../../assets/images/line-shape.avif';
 const GetInTouch = () => {
   return (
     <>
-      <section className="get-in-touch">
+      <section className="get-in-touch" id="get-in-touch">
         <div className="get-in-touch-head">
             <h6 data-aos="fade">Every Story Needs Telling and <br /> We Would Love to Help Tell Yours!</h6>
             <p data-aos="fade">Leave your details below to start a conversation</p>

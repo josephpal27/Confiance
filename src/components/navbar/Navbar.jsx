@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
@@ -30,7 +31,7 @@ const MyNavbar = () => {
             >
                 <Offcanvas.Header>
                     <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">
-                        <Nav.Link as={NavLink} to="/" onClick={handleClose} style={{border: 'none'}} >
+                        <Nav.Link as={NavLink} to="/" onClick={handleClose} style={{ border: 'none' }} >
                             <img src={logo} alt="logo" className="offCanvasLogo" />
                         </Nav.Link>
                     </Offcanvas.Title>
@@ -54,9 +55,9 @@ const MyNavbar = () => {
 
                     {/* Right Side */}
                     <div className="right-btn-wrapper">
-                        <NavLink to="/contact" className="get-in-touch-btn" onClick={handleClose}>
+                        <HashLink smooth to="/#get-in-touch" className="get-in-touch-btn" onClick={handleClose}>
                             GET IN TOUCH
-                        </NavLink>
+                        </HashLink>
                     </div>
                 </Offcanvas.Body>
             </Navbar.Offcanvas>

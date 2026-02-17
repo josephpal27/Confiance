@@ -31,10 +31,11 @@ const ClientReviews = () => {
                                 spaceBetween={0}
                                 autoHeight={true}
                                 speed={1000}
-                                autoplay={{
-                                    delay: 3000,
-                                    disableOnInteraction: false,
-                                }}
+                                // autoplay={{
+                                //     delay: 3000,
+                                //     disableOnInteraction: false,
+                                // }}
+                                autoplay={false}
                                 navigation={{
                                     nextEl: ".swiper-button-next",
                                     prevEl: ".swiper-button-prev",
