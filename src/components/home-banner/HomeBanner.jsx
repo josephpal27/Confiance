@@ -7,8 +7,8 @@ const HomeBanner = () => {
             <section className="home-banner">
                 <img src="/images/banners/home-banner.avif" alt="Banner" loading="eager" />
                 <div className="banner-content">
-                    <h1 data-aos="fade-up">Driving Visibility. Delivering Impact.</h1>
-                    <p data-aos="fade">Founded by seasoned publicist Bushra Ismail, Confiance Communications is a leading PR firm driving brand visibility for 250+ brands and 50+ VCs, shaping 15,000+ stories and reaching over 20 million stakeholders nationwide.</p>
+                    <h1 data-aos="fade-up">Strategic Communications Partner for <br /> Leaders Who Think Long-Term</h1>
+                    <p data-aos="fade">We help founders and brands turn vision into influence. Through disciplined, needle-moving storytelling, and a counsel-led approach to PR, we build reputations that open doors to opportunity and create lasting business advantage.</p>
                     <HashLink smooth to="/#get-in-touch">
                         <button>Talk To Our Experts</button>
                     </HashLink>

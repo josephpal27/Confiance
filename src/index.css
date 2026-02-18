@@ -12,12 +12,17 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
-@font-face {
+/* @font-face {
   font-family: "StretchPro";
   src: url("./assets/fonts/stretch-pro.regular.ttf") format("truetype");
+} */
+
+@font-face {
+  font-family: "tbj-one-more";
+  src: url("./assets/fonts/tbj-one-more.otf") format("opentype");
 }
 
-
 h1, h2, h3, h4, h5, h6{
-    font-family: "StretchPro", sans-serif !important;
+    /* font-family: "StretchPro", sans-serif !important; */
+    font-family: "tbj-one-more", sans-serif !important;
 }
