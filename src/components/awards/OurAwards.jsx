@@ -1,5 +1,6 @@
 import './OurAwards.css';
 import { Tab, Nav } from "react-bootstrap";
+import { FaArrowRight } from "react-icons/fa6";
 
 const OurAwards = () => {
     return (
@@ -39,28 +40,68 @@ const OurAwards = () => {
                         {/* Tabs Navigation */}
                         <Nav variant="tabs" className="tab-head">
                             <Nav.Item>
-                                <Nav.Link eventKey="tabOne">Afaqs CommuniCon</Nav.Link>
+                                <Nav.Link eventKey="tabOne">
+                                    Afaqs CommuniCon 
+                                    <a href="https://events.afaqs.com/communicon-2025/Awards/winners" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                                        View More <FaArrowRight />
+                                    </a>
+                                </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="tabTwo">She By Agency Reporter</Nav.Link>
+                                <Nav.Link eventKey="tabTwo">
+                                    She By Agency Reporter
+                                    <a href="https://www.agencyreporter.com/she24/" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                                        View More <FaArrowRight />
+                                    </a>
+                                </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="tabThree">Millennial Achievers 2025</Nav.Link>
+                                <Nav.Link eventKey="tabThree">
+                                    Millennial Achievers 2025
+                                    <a href="https://marketingmind.in/millennial-achievers-2025-presenting-the-winners-who-defined-excellence-this-year/" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                                        View More <FaArrowRight />
+                                    </a>
+                                </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="tabFour">Agency Reporter 40Under40</Nav.Link>
+                                <Nav.Link eventKey="tabFour">
+                                    Agency Reporter 40Under40
+                                    <a href="https://www.agencyreporter.com/40under40/" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                                        View More <FaArrowRight />
+                                    </a>
+                                </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="tabFive">Reputation Today 40Under40</Nav.Link>
+                                <Nav.Link eventKey="tabFive">
+                                    Reputation Today 40Under40
+                                    <a href="https://reputationtoday.in/reputation-today-40-under-forty-class-of-2019/" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                                        View More <FaArrowRight />
+                                    </a>
+                                </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="tabSix">E4M 40Under40</Nav.Link>
+                                <Nav.Link eventKey="tabSix">
+                                    E4M 40Under40
+                                    <a href="https://www.exchange4media.com/pr-and-corporate-communication-news/exchange4media-unveils-pr-corporate-communications-40-under-40-list-101574.html%20" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                                        View More <FaArrowRight />
+                                    </a>
+                                </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="tabSeven">Impact Super 50</Nav.Link>
+                                <Nav.Link eventKey="tabSeven">
+                                    Impact Super 50
+                                    <a href="https://www.impactonnet.com/spotlight/celebrating-women-leaders-in-pr-corp-comm-7105.html?fbclid=IwAR0VSkIg9p8ZTvY779NB9e69-oPlsgieoBitK8us3oIw3WxbQzONgZpKVVU" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                                        View More <FaArrowRight />
+                                    </a>
+                                </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="tabEight">E4M CEO of the Year Award</Nav.Link>
+                                <Nav.Link eventKey="tabEight">
+                                    E4M CEO of the Year Award
+                                    <a href="https://www.exchange4media.com/pr-and-corporate-communication-news/47-leaders-honoured-at-first-edition-of-e4m-pr-corp-comm-women-achievers-awards-106465.html" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                                        View More <FaArrowRight />
+                                    </a>
+                                </Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Tab.Container>

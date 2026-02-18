@@ -34,10 +34,27 @@
     font-weight: 600;
     border: none;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 .our-awards .awards-tabbing-container .nav-link.active{
     /* background: linear-gradient(180deg, #836c9ad3 0%, #300d53 80%); */
     background: linear-gradient(180deg, #ba7d3c 0%, #703f0f 80%);
+}
+.our-awards .awards-tabbing-container .nav-link a{
+    color: #fff;
+    font-size: calc(0.35rem + 0.5vw);
+    font-weight: 500;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    display: none;
+}
+.our-awards .awards-tabbing-container .nav-link a:hover{
+    text-decoration: underline;
+}
+.our-awards .awards-tabbing-container .nav-link.active a{
+    display: flex;
 }
 
 /* Media Queries */
