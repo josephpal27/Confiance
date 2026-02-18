@@ -1,6 +1,5 @@
 import './OurAwards.css';
 import { Tab, Nav } from "react-bootstrap";
-import award1 from '../../assets/images/awards/1.avif';
 
 const OurAwards = () => {
     return (
@@ -12,28 +11,28 @@ const OurAwards = () => {
                         {/* Tabs Content */}
                         <Tab.Content>
                             <Tab.Pane eventKey="tabOne" className="fade show">
-                                <img src={award1} alt="Tab 1" loading="lazy" />
+                                <img src="/images/awards/1.avif" alt="Tab 1" loading="lazy" />
                             </Tab.Pane>
                             <Tab.Pane eventKey="tabTwo" className="fade">
-                                <img src={award1} alt="Tab 2" loading="lazy" />
+                                <img src="/images/awards/2.avif" alt="Tab 2" loading="lazy" />
                             </Tab.Pane>
                             <Tab.Pane eventKey="tabThree" className="fade">
-                                <img src={award1} alt="Tab 3" loading="lazy" />
+                                <img src="/images/awards/3.avif" alt="Tab 3" loading="lazy" />
                             </Tab.Pane>
                             <Tab.Pane eventKey="tabFour" className="fade">
-                                <img src={award1} alt="Tab 4" loading="lazy" />
+                                <img src="/images/awards/4.avif" alt="Tab 4" loading="lazy" />
                             </Tab.Pane>
                             <Tab.Pane eventKey="tabFive" className="fade">
-                                <img src={award1} alt="Tab 5" loading="lazy" />
+                                <img src="/images/awards/5.avif" alt="Tab 5" loading="lazy" />
                             </Tab.Pane>
                             <Tab.Pane eventKey="tabSix" className="fade">
-                                <img src={award1} alt="Tab 6" loading="lazy" />
+                                <img src="/images/awards/6.avif" alt="Tab 6" loading="lazy" />
                             </Tab.Pane>
                             <Tab.Pane eventKey="tabSeven" className="fade">
-                                <img src={award1} alt="Tab 7" loading="lazy" />
+                                <img src="/images/awards/7.avif" alt="Tab 7" loading="lazy" />
                             </Tab.Pane>
                             <Tab.Pane eventKey="tabEight" className="fade">
-                                <img src={award1} alt="Tab 8" loading="lazy" />
+                                <img src="/images/awards/8.avif" alt="Tab 8" loading="lazy" />
                             </Tab.Pane>
                         </Tab.Content>
 
