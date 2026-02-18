@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="foot-content">
                     <div className="foot-left">
                         <img src={logo} alt="Logo" loading="lazy" />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facilis, at reiciendis labore explicabo impedit dolorum architecto modi facere dolor?</p>
+                        <p>Founded by seasoned publicist Bushra Ismail, Confiance Communications is a leading PR firm driving brand visibility for 250+ brands and 50+ VCs, shaping 15,000+ stories and reaching over 20 million stakeholders nationwide.</p>
                     </div>
                     <div className="foot-right">
                         <a href="#"> <FaLocationDot className="foot-icon" /> WeWork, DLF Two Horizon Centre, Golf Course Road, Sector 43, Gurugram, Haryana 122002</a>
