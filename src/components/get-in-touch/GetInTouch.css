@@ -29,57 +29,6 @@
 .get-in-touch-row .get-in-touch-left{
     width: 40%;
 }
-.get-in-touch-row .get-in-touch-left form{
-    display: flex;
-    flex-direction: column;
-}
-.get-in-touch-row .get-in-touch-left form input{
-    background-color: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid #fff;
-    padding: 0 0 2rem 0;
-    margin-bottom: 1rem;
-    color: #fff;
-    font-family: "tbj-one-more", sans-serif !important;
-    font-size: calc(1.1rem + 0.5vw);
-}
-.get-in-touch-row .get-in-touch-left form input::placeholder,
-.get-in-touch-row .get-in-touch-left form textarea::placeholder{
-    color: #fff;
-}
-.get-in-touch-row .get-in-touch-left form textarea{
-    background-color: #300d53;
-    padding: 1.2rem 1.5rem;
-    border-radius: 15px;
-    outline: none;
-    border: 1px solid #fff;
-    margin-top: 1rem;
-    color: #fff;
-    min-height: 10rem;
-    resize: none;
-    font-size: calc(0.65rem + 0.5vw);
-}
-.get-in-touch-row .get-in-touch-left form button{
-    background-color: #fff;
-    color: #300d53;
-    width: max-content;
-    border: none;
-    padding: 1rem 2rem;
-    font-size: calc(0.65rem + 0.5vw);
-    font-weight: 550;
-    margin-top: 2rem;
-    border-radius: 10px;
-    transition: all 0.2s ease;
-}
-.get-in-touch-row .get-in-touch-left form button:hover{
-    background-color: #2e0e4f;
-    color: #fff;
-    box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
-}
-.get-in-touch-row .get-in-touch-left form button:active{
-    scale: 0.95;
-}
 .get-in-touch-row .get-in-touch-right{
     width: 40%;
     position: relative;
@@ -128,23 +77,6 @@
     .get-in-touch-row{
         margin-top: 4.5rem;
     }
-    .get-in-touch-row .get-in-touch-left form input{
-        border-bottom: 1.8px solid #fff;
-        padding: 0 0 1.7rem 0;
-        margin-bottom: 0.9rem;
-        font-size: calc(1rem + 0.5vw);
-    }
-    .get-in-touch-row .get-in-touch-left form textarea{
-        padding: 1.1rem 1.4rem;
-        margin-top: 0.9rem;
-        min-height: 9rem;
-        font-size: calc(0.6rem + 0.5vw);
-    }
-    .get-in-touch-row .get-in-touch-left form button{
-        padding: 0.9rem 1.8rem;
-        font-size: calc(0.6rem + 0.5vw);
-        margin-top: 1.8rem;
-    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
@@ -161,23 +93,6 @@
     .get-in-touch-row{
         margin-top: 4rem;
     }
-    .get-in-touch-row .get-in-touch-left form input{
-        border-bottom: 1.5px solid #fff;
-        padding: 0 0 1.5rem 0;
-        margin-bottom: 0.8rem;
-        font-size: calc(0.9rem + 0.5vw);
-    }
-    .get-in-touch-row .get-in-touch-left form textarea{
-        padding: 1rem 1.3rem;
-        margin-top: 0.8rem;
-        min-height: 8rem;
-        font-size: calc(0.55rem + 0.5vw);
-    }
-    .get-in-touch-row .get-in-touch-left form button{
-        padding: 0.8rem 1.7rem;
-        font-size: calc(0.55rem + 0.5vw);
-        margin-top: 1.6rem;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -185,7 +100,7 @@
         padding: 2rem 1rem 3rem 1rem;
     }
     .get-in-touch-head h6{
-        font-size: calc(1.3rem + 0.5vw);
+        font-size: calc(1.2rem + 0.5vw);
     }
     .get-in-touch-head h6 br{
         display: none;
@@ -198,23 +113,6 @@
     }
     .get-in-touch-row .get-in-touch-left{
         width: 100%;
-    }
-    .get-in-touch-row .get-in-touch-left form input{
-        border-bottom: 1.7px solid #fff;
-        padding: 0 0 1.3rem 0;
-        margin-bottom: 0.9rem;
-        font-size: calc(1rem + 0.5vw);
-    }
-    .get-in-touch-row .get-in-touch-left form textarea{
-        padding: 0.8rem 1.1rem;
-        margin-top: 0.8rem;
-        min-height: 10rem;
-        font-size: calc(0.9rem + 0.5vw);
-    }
-    .get-in-touch-row .get-in-touch-left form button{
-        padding: 0.8rem 1.5rem;
-        font-size: calc(0.95rem + 0.5vw);
-        margin-top: 1.5rem;
     }
     .get-in-touch-row .get-in-touch-right{
         width: 100%;

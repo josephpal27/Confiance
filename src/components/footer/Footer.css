@@ -32,6 +32,9 @@ footer .foot-content .foot-right a{
     color: #fff;
     font-size: calc(0.65rem + 0.5vw);
 }
+footer .foot-content .foot-right a:hover{
+    text-decoration: underline;
+}
 footer .foot-content .foot-right .foot-icon{
     font-size: calc(0.9rem + 0.5vw);
 }

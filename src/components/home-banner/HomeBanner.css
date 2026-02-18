@@ -92,8 +92,8 @@
         padding: 0 1rem;
     }
     .home-banner .banner-content h1{
-        font-size: calc(1.1rem + 0.5vw);
-        margin-top: -5.5rem;
+        font-size: calc(0.95rem + 0.5vw);
+        margin-top: -5rem;
     }
     .home-banner .banner-content h1 br{
         display: none;
@@ -101,7 +101,7 @@
     .home-banner .banner-content p{
         font-size: calc(0.9rem + 0.5vw);
         width: 100%;
-        margin-top: 1.2rem;
+        margin-top: 1.7rem;
     }
     .home-banner .banner-content button{
         margin-top: 0.5rem;

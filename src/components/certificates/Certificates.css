@@ -1,5 +1,5 @@
 .certificates{
-    padding: 4rem 7% 13rem 7%;
+    padding: 4rem 7% 11rem 7%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,10 +9,7 @@
 .certificates h4{
     font-size: calc(1.8rem + 0.5vw);
     margin-bottom: 1.5rem;
-}
-.certificates span{
-    font-size: calc(0.8rem + 0.5vw);
-    font-weight: 400;
+    text-align: center;
 }
 .certificates p{
     font-size: calc(0.65rem + 0.5vw);
@@ -35,14 +32,11 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .certificates{
-        padding: 3.8rem 7% 12rem 7%;
+        padding: 3.8rem 7% 10rem 7%;
     }
     .certificates h4{
         font-size: calc(1.6rem + 0.5vw);
         margin-bottom: 1.3rem;
-    }
-    .certificates span{
-        font-size: calc(0.7rem + 0.5vw);
     }
     .certificates p{
         font-size: calc(0.6rem + 0.5vw);
@@ -55,14 +49,11 @@
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .certificates{
-        padding: 3.7rem 7% 10rem 7%;
+        padding: 3.7rem 7% 8rem 7%;
     }
     .certificates h4{
         font-size: calc(1.4rem + 0.5vw);
         margin-bottom: 1.2rem;
-    }
-    .certificates span{
-        font-size: calc(0.6rem + 0.5vw);
     }
     .certificates p{
         font-size: calc(0.55rem + 0.5vw);
@@ -76,14 +67,11 @@
 
 @media screen and (max-width: 768px) {
     .certificates{
-        padding: 2rem 1rem 5rem 1rem;
+        padding: 2rem 1rem 4rem 1rem;
     }
     .certificates h4{
         font-size: calc(1.4rem + 0.5vw);
-        margin-bottom: 1.2rem;
-    }
-    .certificates span{
-        font-size: calc(0.95rem + 0.5vw);
+        margin-bottom: 0.7rem;
     }
     .certificates p{
         font-size: calc(0.9rem + 0.5vw);

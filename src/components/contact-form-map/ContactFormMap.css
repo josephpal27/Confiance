@@ -1,0 +1,99 @@
+.contact-form-map{
+    background-color: #5b2096;
+    padding: 4rem 7% 7rem 7%;
+    color: #fff;
+    overflow: hidden;
+    background-image: url('/images/banners/home-banner.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-form-map-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form-map-head h6{
+    font-size: calc(1.8rem + 0.5vw);
+    text-align: center;
+}
+.contact-form-map-head p{
+    font-size: calc(1rem + 0.5vw);
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0.3rem;
+}
+.contact-form-map-row{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-form-map-row .contact-form-map-left{
+    width: 40%;
+}
+.contact-form-map-row .contact-form-map-right{
+    width: 53%;
+}
+.contact-form-map-row .contact-form-map-right iframe{
+    border-radius: 10px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .contact-form-map{
+        padding: 3.5rem 7% 6.5rem 7%;
+    }
+    .contact-form-map-head h6{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .contact-form-map-head p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.28rem;
+    }
+    .contact-form-map-row{
+        margin-top: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .contact-form-map{
+        padding: 3rem 7% 5.5rem 7%;
+    }
+    .contact-form-map-head h6{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .contact-form-map-head p{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.25rem;
+    }
+    .contact-form-map-row{
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-form-map{
+        padding: 2rem 1rem 3rem 1rem;
+    }
+    .contact-form-map-head h6{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .contact-form-map-head h6 br{
+        display: none;
+    }
+    .contact-form-map-head p{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .contact-form-map-row{
+        margin-top: 3rem;
+    }
+    .contact-form-map-row .contact-form-map-left{
+        width: 100%;
+    }
+    .contact-form-map-row .contact-form-map-right{
+        width: 100%;
+        height: 40vh;
+        margin-top: 3rem;
+    }
+}
