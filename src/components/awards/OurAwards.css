@@ -73,6 +73,10 @@
         font-size: calc(0.65rem + 0.5vw);
         margin-bottom: 0.84rem;
     }
+    .our-awards .awards-tabbing-container .nav-link a{
+        font-size: calc(0.3rem + 0.5vw);
+        gap: 0.45rem;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
@@ -89,6 +93,10 @@
         padding: 1.1rem 1.2rem;
         font-size: calc(0.6rem + 0.5vw);
         margin-bottom: 0.7rem;
+    }
+    .our-awards .awards-tabbing-container .nav-link a{
+        font-size: calc(0.25rem + 0.5vw);
+        gap: 0.4rem;
     }
 }
 
@@ -114,5 +122,9 @@
         padding: 0.9rem 1rem;
         font-size: calc(0.9rem + 0.5vw);
         margin-bottom: 0.5rem;
+    }
+    .our-awards .awards-tabbing-container .nav-link a{
+        font-size: calc(0.65rem + 0.5vw);
+        gap: 0.3rem;
     }
 }

@@ -28,7 +28,8 @@
     color: #fff;
     margin: 0;
     font-size: calc(2rem + 0.5vw);
-    font-family: "hinato", sans-serif !important;
+    /* font-family: "hinato", sans-serif !important; */
+    font-family: "OliGroteskL-Black", sans-serif !important;
     white-space: nowrap;
     text-transform: uppercase;
 }

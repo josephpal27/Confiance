@@ -40,7 +40,7 @@ export const reviewsData = [
     name: "Raiyaan Shingati",
     designation: "Founder & Managing Partner, Transition VC",
     review:
-      "We have had the pleasure of working with Confiance Communications as our PR agency for Transition VC since April 2023, and it has been an outstanding partnership thus far. Since our fund’s inception, Confiance has proven to be a valuable collaborator. As India’s first energy transition-focused VC fund and as thought leaders in the space, we believe that Confiance has played a significant role in representing Transition VC and our vision effectively. Their efforts have not only enhanced our image but also aligned seamlessly with our goals and vision for a sustainable tomorrow. We appreciate the dedication and expertise that Confiance Communications brings to our communications strategy.",
+      "We have had the pleasure of working with Confiance Communications as our PR agency for Transition VC since April 2023, and it has been an outstanding partnership thus far. Since our fund’s inception, Confiance has proven to be a valuable collaborator. As India’s first energy transition-focused VC fund and as thought leaders in the space, we believe that Confiance has played a significant role in representing Transition VC and our vision effectively. Their efforts have not only enhanced our image but also aligned seamlessly with our goals and vision for a sustainable tomorrow. We appreciate the dedication and expertise that Confiance Communications brings to our Communications strategy.",
   },
   {
     image: "/images/reviews/7.avif",
@@ -82,7 +82,7 @@ export const reviewsData = [
     name: "Piyush Nangru",
     designation: "Co-founder & COO, Sunstone",
     review:
-      "As Co-founder & COO at Sunstone, our partnership with Bushra and the Confiance team has been truly delightful. Their pivotal role in Sunstone’s brand development during its early stages, especially in spearheading our national and regional communications strategy, significantly contributed to our brand’s growing nationwide presence. Their expertise and strategic insights were evident in their campaign suggestions, which played a key role in efficiently amplifying our vision among the right audience. I have personally recommended Confiance to numerous businesses and startups based on my positive experiences, and they have proved their commitment to quality consistently.",
+      "As Co-founder & COO at Sunstone, our partnership with Bushra and the Confiance team has been truly delightful. Their pivotal role in Sunstone’s brand development during its early stages, especially in spearheading our national and regional Communications strategy, significantly contributed to our brand’s growing nationwide presence. Their expertise and strategic insights were evident in their campaign suggestions, which played a key role in efficiently amplifying our vision among the right audience. I have personally recommended Confiance to numerous businesses and startups based on my positive experiences, and they have proved their commitment to quality consistently.",
   },
   {
     image: "/images/reviews/13.avif",
@@ -110,7 +110,7 @@ export const reviewsData = [
     name: "Sudeep Singh",
     designation: "CEO & Chief Evangelist, GoWork",
     review:
-      "Confiance communications stepped in as not just as our communication partners, but also strategic partners. They have gone over and above mainstream PR, to help build our brand and image. From conceiving social media campaigns to additional value-added features for our community members, they have stopped at nothing to create measurable impact.",
+      "Confiance Communications stepped in as not just as our communication partners, but also strategic partners. They have gone over and above mainstream PR, to help build our brand and image. From conceiving social media campaigns to additional value-added features for our community members, they have stopped at nothing to create measurable impact.",
   },
   {
     image: "/images/reviews/17.avif",
@@ -124,7 +124,7 @@ export const reviewsData = [
     name: "Bhavna Juneja",
     designation: "Co-Founder & CSO, MPowered",
     review:
-      "The first time I met Bushra, who is the owner of Confiance communications I was very impressed looking at a young lady walking in with a man’s confidence and spoke her subject so well. Particularly the work that they have done for our company being that I am from the USA, they did a great job in bringing my story to the media and publications here in terms of the brand visibility and the journey I have carried and why I decided to come into the real estate industry. Their team members are fantastic and she is a great symbol of hiring people with great talent and I see a lot of women also in her company. I wish them the best and I feel they are a bang on company if you want your PR activities and brand engagement done!",
+      "The first time I met Bushra, who is the owner of Confiance Communications I was very impressed looking at a young lady walking in with a man’s confidence and spoke her subject so well. Particularly the work that they have done for our company being that I am from the USA, they did a great job in bringing my story to the media and publications here in terms of the brand visibility and the journey I have carried and why I decided to come into the real estate industry. Their team members are fantastic and she is a great symbol of hiring people with great talent and I see a lot of women also in her company. I wish them the best and I feel they are a bang on company if you want your PR activities and brand engagement done!",
   },
   {
     image: "/images/reviews/19.avif",

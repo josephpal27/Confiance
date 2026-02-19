@@ -92,8 +92,8 @@
         padding: 0 1rem;
     }
     .home-banner .banner-content h1{
-        font-size: calc(0.95rem + 0.5vw);
-        margin-top: -5rem;
+        font-size: calc(1.15rem + 0.5vw) !important;
+        margin-top: -5.5rem;
     }
     .home-banner .banner-content h1 br{
         display: none;

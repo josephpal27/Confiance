@@ -48,14 +48,10 @@
         min-height: auto;
     }
     .services-banner .banner-content{
-        background-color: #5b2096;
-        height: auto;
-        position: relative;
         padding: 0 1rem;
     }
     .services-banner .banner-content h1{
-        font-size: calc(1.3rem + 0.5vw);
-        margin-top: -5.5rem;
-        margin-bottom: 5rem;
+        margin-bottom: 0;
+        margin-top: 0.5rem;
     }
 }

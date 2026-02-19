@@ -65,5 +65,18 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    .sectors{
+        padding: 0 1rem 3rem 1rem;
+    }
+    .sectors .sectors-row{
+        margin-top: 1.5rem;
+    }
+    .sectors .sector-box{
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 1.5rem 1rem;
+    }
+    .sectors .sector-box span{
+        font-size: calc(1rem + 0.5vw);
+    }
 }

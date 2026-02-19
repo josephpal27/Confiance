@@ -24,12 +24,12 @@ const Sectors = () => {
     return (
         <>
             <section className="sectors">
-                <h3>Our Sectors</h3>
+                <h3 data-aos="fade-up">Our Sectors</h3>
                 <div className="sectors-row">
                     {
                         sectorsData.map((item, index) => {
                             return (
-                                <div className="sector-box" key={index}>
+                                <div className="sector-box" key={index} data-aos="fade" data-aos-once="true">
                                     <span>{item.title}</span>
                                 </div>
                             )

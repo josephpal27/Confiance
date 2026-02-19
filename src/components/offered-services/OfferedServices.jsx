@@ -51,16 +51,15 @@ const OfferedServices = () => {
     return (
         <>
             <section className="offered-services">
-                <h2>Services We Offer</h2>
+                <h2 data-aos="fade-right">Services We Offer</h2>
 
                 <div className="services-row">
                     {
                         servicesData.map((item, index) => {
                             return (
-                                <div className="service-box" key={index}>
+                                <div className="service-box" key={index} data-aos="fade" data-aos-once="true">
                                     <p>
-                                        <div>{item.id}.</div> 
-                                        <div>{item.title}</div>
+                                        {item.title}
                                     </p>
                                 </div>
                             )
