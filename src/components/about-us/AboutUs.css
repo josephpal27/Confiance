@@ -27,7 +27,7 @@
 .about-us-line-container .about-line p{
     color: #fff;
     margin: 0;
-    font-size: calc(2rem + 0.5vw);
+    font-size: calc(1.8rem + 0.5vw);
     /* font-family: "hinato", sans-serif !important; */
     font-family: "OliGroteskL-Black", sans-serif !important;
     white-space: nowrap;
@@ -77,7 +77,7 @@
         gap: 0.9rem;
     }
     .about-us-line-container .about-line p{
-        font-size: calc(1.3rem + 0.5vw);
+        font-size: calc(1.7rem + 0.5vw);
     }
     .about-us-line-container .about-line p .star-icon{
         font-size: calc(0.45rem + 0.5vw);
@@ -111,7 +111,7 @@
         gap: 0.8rem;
     }
     .about-us-line-container .about-line p{
-        font-size: calc(1.2rem + 0.5vw);
+        font-size: calc(1.6rem + 0.5vw);
     }
     .about-us-line-container .about-line p .star-icon{
         font-size: calc(0.4rem + 0.5vw);

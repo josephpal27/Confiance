@@ -1,7 +1,7 @@
 import './Sectors.css';
 
 let sectorsData = [
-    { id: 1, title: "Tousism" },
+    { id: 1, title: "Tourism" },
     { id: 2, title: "Hospitality" },
     { id: 3, title: "Luxury" },
     { id: 4, title: "Deep-Tech" },
