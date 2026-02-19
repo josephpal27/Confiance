@@ -1,0 +1,101 @@
+.timeline{
+    background-color: #5b2096;
+    padding: 4rem 7% 3rem 7%;
+    color: #fff;
+    overflow: hidden;
+}
+.timeline h2{
+    font-size: calc(1.8rem + 0.5vw);
+    text-align: center;
+}
+.timeline-content{
+    margin-top: 3rem;
+}
+.timeline-box{
+    margin-bottom: 3.5rem;
+    border-bottom: 2px solid #d2d2d2;
+    padding-bottom: 1rem;
+}
+.timeline-box span{
+    display: block;
+    font-weight: 700;
+    font-size: calc(1rem + 0.5vw);
+    margin-bottom: 1.5rem;
+}
+.timeline-box p{
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 400;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .timeline{
+        padding: 3.5rem 7% 2.5rem 7%;
+    }
+    .timeline h2{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .timeline-content{
+        margin-top: 2.8rem;
+    }
+    .timeline-box{
+        margin-bottom: 3.3rem;
+        border-bottom: 1.7px solid #d2d2d2;
+        padding-bottom: 0.9rem;
+    }
+    .timeline-box span{
+        font-size: calc(0.95rem + 0.5vw);
+        margin-bottom: 1.3rem;
+    }
+    .timeline-box p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .timeline{
+        padding: 3rem 7% 2rem 7%;
+    }
+    .timeline h2{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .timeline-content{
+        margin-top: 2.6rem;
+    }
+    .timeline-box{
+        margin-bottom: 3.1rem;
+        border-bottom: 1.5px solid #d2d2d2;
+        padding-bottom: 0.8rem;
+    }
+    .timeline-box span{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-bottom: 1.1rem;
+    }
+    .timeline-box p{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .timeline{
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .timeline h2{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .timeline-content{
+        margin-top: 2rem;
+    }
+    .timeline-box{
+        margin-bottom: 2rem;
+        border-bottom: 1.5px solid #d2d2d2;
+        padding-bottom: 0.5rem;
+    }
+    .timeline-box span{
+        font-size: calc(1.1rem + 0.5vw);
+        margin-bottom: 1.1rem;
+    }
+    .timeline-box p{
+        font-size: calc(1rem + 0.5vw);
+    }
+}

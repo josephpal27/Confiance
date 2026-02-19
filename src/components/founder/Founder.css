@@ -1,0 +1,78 @@
+.founder{
+    background-color: #5b2096;
+    padding: 0 7% 4rem 7%;
+    color: #fff;
+    overflow: hidden;
+}
+.founder .founder-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.founder .founder-top-content{
+    width: 60%;
+}
+.founder .founder-top-image{
+    width: 35%;
+}
+.founder .founder-top-image img{
+    width: 100%;
+}
+.founder h3{
+    font-size: calc(1.8rem + 0.5vw);
+    margin-bottom: 2rem;
+}
+.founder p{
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 400;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .founder{
+        padding: 0 7% 3.5rem 7%;
+    }
+    .founder h3{
+        font-size: calc(1.6rem + 0.5vw);
+        margin-bottom: 1.8rem;
+    }
+    .founder p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .founder{
+        padding: 0 7% 3rem 7%;
+    }
+    .founder h3{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-bottom: 1.6rem;
+    }
+    .founder p{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .founder{
+        padding: 0 1rem 3rem 1rem;
+    }
+    .founder .founder-top{
+        flex-direction: column-reverse;
+    }
+    .founder .founder-top-content{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .founder .founder-top-image{
+        width: 100%;
+    }
+    .founder h3{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-bottom: 1.5rem;
+    }
+    .founder p{
+        font-size: calc(1rem + 0.5vw);
+    }
+}

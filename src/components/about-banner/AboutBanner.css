@@ -1,0 +1,77 @@
+.about-banner{
+    position: relative;
+    min-height: 88vh;
+}
+.about-banner img{
+    width: 100%;
+    min-height: 88vh;
+    object-fit: cover;
+}
+.about-banner .banner-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 7%;
+}
+.about-banner .banner-content h1{
+    text-align: center;
+    font-size: calc(1.8rem + 0.5vw);
+    margin-bottom: 1.5rem;
+}
+.about-banner .banner-content p{
+    text-align: center;
+    font-size: calc(0.65rem + 0.5vw);
+    width: 75%;
+    font-weight: 400;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .about-banner .banner-content h1{
+        font-size: calc(1.6rem + 0.5vw);
+        margin-bottom: 1.4rem;
+    }
+    .about-banner .banner-content p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .about-banner .banner-content h1{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-bottom: 1.3rem;
+    }
+    .about-banner .banner-content p{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-banner{
+        min-height: auto;
+    }
+    .about-banner img{
+        min-height: auto;
+    }
+    .about-banner .banner-content{
+        background-color: #5b2096;
+        height: auto;
+        position: relative;
+        padding: 0 1rem;
+    }
+    .about-banner .banner-content h1{
+        font-size: calc(1.3rem + 0.5vw);
+        margin-top: -5.5rem;
+        margin-bottom: 5rem;
+    }
+    .about-banner .banner-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        width: 100%;
+    }
+}

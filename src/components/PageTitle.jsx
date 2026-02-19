@@ -13,6 +13,10 @@ const PageTitle = () => {
         title = "PR Firm In India - Confiance Communications";
         description = "";
         break;
+      case "/about":
+        title = "About Us - Confiance Communications";
+        description = "";
+        break;
       case "/contact":
         title = "Contact Us - Confiance Communications";
         description = "";

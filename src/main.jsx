@@ -8,6 +8,7 @@ import "aos/dist/aos.css"; // Import AOS CSS
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
 import Contact from './pages/Contact.jsx';
+import About from './pages/About.jsx';
 import Error from './pages/Error.jsx';
 
 let routers = createBrowserRouter([
@@ -17,6 +18,7 @@ let routers = createBrowserRouter([
     // errorElement: <Error />,
     children: [
       {path: "/", element: <Home />},
+      {path: "/about", element: <About />},
       {path: "/contact", element: <Contact />},
       {path: "*", element: <Error />},
     ]

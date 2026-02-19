@@ -55,7 +55,7 @@ const MyNavbar = () => {
 
                     {/* Right Side */}
                     <div className="right-btn-wrapper">
-                        <HashLink smooth to="/#get-in-touch" className="get-in-touch-btn" onClick={handleClose}>
+                        <HashLink smooth to="/contact#get-in-touch" className="get-in-touch-btn" onClick={handleClose}>
                             GET IN TOUCH
                         </HashLink>
                     </div>
