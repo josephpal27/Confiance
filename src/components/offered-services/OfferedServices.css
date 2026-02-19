@@ -1,0 +1,74 @@
+.offered-services{
+    background-color: #5b2096;
+    padding: 4.5rem 7% 3rem 7%;
+    color: #fff;
+}
+/* .offered-services h2{
+    font-size: calc(1.8rem + 0.5vw);
+} */
+.offered-services .services-row{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.offered-services .service-box{
+    width: 32%;
+    background-color: #300c52;
+    margin-bottom: 1.7rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
+}
+.offered-services .service-box:hover{
+    box-shadow: rgba(255, 255, 255, 0.521) 0px 3px 8px;
+}
+.offered-services .service-box p{
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .offered-services{
+        padding: 4rem 7% 2.5rem 7%;
+    }
+    .offered-services .services-row{
+        margin-top: 2.3rem;
+    }
+    .offered-services .service-box{
+        margin-bottom: 1.5rem;
+        padding: 1.8rem;
+        border-radius: 9px;
+    }
+    .offered-services .service-box p{
+        font-size: calc(0.6rem + 0.5vw);
+        gap: 9px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .offered-services{
+        padding: 3.5rem 7% 2rem 7%;
+    }
+    .offered-services .services-row{
+        margin-top: 2.1rem;
+    }
+    .offered-services .service-box{
+        margin-bottom: 1.3rem;
+        padding: 1.6rem;
+        border-radius: 8px;
+    }
+    .offered-services .service-box p{
+        font-size: calc(0.55rem + 0.5vw);
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}

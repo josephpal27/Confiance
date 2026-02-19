@@ -17,12 +17,38 @@ body{
   src: url("./assets/fonts/stretch-pro.regular.ttf") format("truetype");
 } */
 
-@font-face {
+/* @font-face {
   font-family: "tbj-one-more";
   src: url("./assets/fonts/tbj-one-more.otf") format("opentype");
+} */
+
+@font-face {
+  font-family: "hinato";
+  src: url("./assets/fonts/hinato.otf") format("opentype");
 }
 
 h1, h2, h3, h4, h5, h6{
     /* font-family: "StretchPro", sans-serif !important; */
-    font-family: "tbj-one-more", sans-serif !important;
+    /* font-family: "tbj-one-more", sans-serif !important; */
+    font-family: "hinato", sans-serif !important;
+    text-transform: uppercase;
+    font-size: calc(2.5rem + 0.5vw) !important;
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    h1, h2, h3, h4, h5, h6{
+        font-size: calc(2.3rem + 0.5vw) !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    h1, h2, h3, h4, h5, h6{
+        font-size: calc(2rem + 0.5vw) !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1, h2, h3, h4, h5, h6{
+        font-size: calc(1.8rem + 0.5vw) !important;
+    }
 }

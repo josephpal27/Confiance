@@ -15,16 +15,22 @@ const AboutUs = () => {
                 <p>Confiance <FaStar className="star-icon" /></p>
                 <p>Confiance <FaStar className="star-icon" /></p>
                 <p>Confiance <FaStar className="star-icon" /></p>
-            </div>
-            <div className="about-line">
-                <p>Confiance <FaStar className="star-icon" /></p>
-                <p>Confiance <FaStar className="star-icon" /></p>
-                <p>Confiance <FaStar className="star-icon" /></p>
-                <p>Confiance <FaStar className="star-icon" /></p>
                 <p>Confiance <FaStar className="star-icon" /></p>
                 <p>Confiance <FaStar className="star-icon" /></p>
             </div>
             <div className="about-line">
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
+            </div>
+            <div className="about-line">
+                <p>Confiance <FaStar className="star-icon" /></p>
+                <p>Confiance <FaStar className="star-icon" /></p>
                 <p>Confiance <FaStar className="star-icon" /></p>
                 <p>Confiance <FaStar className="star-icon" /></p>
                 <p>Confiance <FaStar className="star-icon" /></p>

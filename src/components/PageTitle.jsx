@@ -17,6 +17,10 @@ const PageTitle = () => {
         title = "About Us - Confiance Communications";
         description = "";
         break;
+      case "/services":
+        title = "Services - Confiance Communications";
+        description = "";
+        break;
       case "/contact":
         title = "Contact Us - Confiance Communications";
         description = "";
