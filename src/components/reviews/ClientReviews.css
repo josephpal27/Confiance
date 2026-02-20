@@ -19,12 +19,12 @@
     overflow: hidden;
 }
 .client-reviews-head{
-    padding: 1rem 8rem 1rem 0;
+    padding: 1rem 0 1rem 0;
     border-bottom: 2px solid #d6954e;
 }
 .client-reviews-head h6{
     font-size: calc(1.6rem + 0.5vw);
-    text-align: end;
+    text-align: center;
 }
 .reviews-slider{
     position: relative;
@@ -115,7 +115,7 @@
         border-radius: 28px;
     }
     .client-reviews-head{
-        padding: 0.9rem 7rem 0.9rem 0;
+        padding: 0.9rem 0 0.9rem 0;
         border-bottom: 1.9px solid #d6954e;
     }
     .client-reviews-head h6{
@@ -168,7 +168,7 @@
         border-radius: 25px;
     }
     .client-reviews-head{
-        padding: 0.8rem 6rem 0.8rem 0;
+        padding: 0.8rem 0 0.8rem 0;
         border-bottom: 1.5px solid #d6954e;
     }
     .client-reviews-head h6{

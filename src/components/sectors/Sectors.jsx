@@ -24,7 +24,7 @@ const Sectors = () => {
     return (
         <>
             <section className="sectors">
-                <h3 data-aos="fade-up">Our Sectors</h3>
+                <h3 data-aos="fade-up">Sectors</h3>
                 <div className="sectors-row">
                     {
                         sectorsData.map((item, index) => {

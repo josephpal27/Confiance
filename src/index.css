@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Montserrat", sans-serif !important;
     text-transform: uppercase;
     font-size: calc(2.3rem + 0.5vw) !important;
-    font-weight: 750 !important;
+    font-weight: 650 !important;
 }
 
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
