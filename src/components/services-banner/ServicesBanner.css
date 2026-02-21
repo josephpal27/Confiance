@@ -21,21 +21,18 @@
 }
 .services-banner .banner-content h1{
     text-align: center;
-    font-size: calc(1.8rem + 0.5vw);
     margin-bottom: 1.5rem;
 }
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .services-banner .banner-content h1{
-        font-size: calc(1.6rem + 0.5vw);
         margin-bottom: 1.4rem;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .services-banner .banner-content h1{
-        font-size: calc(1.4rem + 0.5vw);
         margin-bottom: 1.3rem;
     }
 }

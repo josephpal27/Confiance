@@ -11,7 +11,6 @@
     align-items: center;
 }
 .get-in-touch-head h6{
-    font-size: calc(1.8rem + 0.5vw);
     text-align: center;
 }
 .get-in-touch-head p{
@@ -67,9 +66,6 @@
     .get-in-touch{
         padding: 3.5rem 7% 6.5rem 7%;
     }
-    .get-in-touch-head h6{
-        font-size: calc(1.6rem + 0.5vw);
-    }
     .get-in-touch-head p{
         font-size: calc(0.9rem + 0.5vw);
         margin-top: 0.28rem;
@@ -83,9 +79,6 @@
     .get-in-touch{
         padding: 3rem 7% 5.5rem 7%;
     }
-    .get-in-touch-head h6{
-        font-size: calc(1.4rem + 0.5vw);
-    }
     .get-in-touch-head p{
         font-size: calc(0.8rem + 0.5vw);
         margin-top: 0.25rem;
@@ -98,9 +91,6 @@
 @media screen and (max-width: 768px) {
     .get-in-touch{
         padding: 2rem 1rem 3rem 1rem;
-    }
-    .get-in-touch-head h6{
-        font-size: calc(1.2rem + 0.5vw);
     }
     .get-in-touch-head h6 br{
         display: none;

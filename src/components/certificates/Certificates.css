@@ -7,7 +7,6 @@
     position: relative;
 }
 .certificates h4{
-    font-size: calc(1.8rem + 0.5vw);
     margin-bottom: 1.5rem;
     text-align: center;
 }
@@ -35,7 +34,6 @@
         padding: 3.8rem 7% 10rem 7%;
     }
     .certificates h4{
-        font-size: calc(1.6rem + 0.5vw);
         margin-bottom: 1.3rem;
     }
     .certificates p{
@@ -52,7 +50,6 @@
         padding: 3.7rem 7% 8rem 7%;
     }
     .certificates h4{
-        font-size: calc(1.4rem + 0.5vw);
         margin-bottom: 1.2rem;
     }
     .certificates p{
@@ -70,7 +67,6 @@
         padding: 2rem 1rem 4rem 1rem;
     }
     .certificates h4{
-        font-size: calc(1.4rem + 0.5vw);
         margin-bottom: 0.7rem;
     }
     .certificates p{

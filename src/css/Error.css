@@ -1,6 +1,7 @@
 .error{
     height: 88vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #5b2096;
@@ -8,25 +9,56 @@
 }
 .error h1{
     color: #fff;
-    font-size: calc(2.5rem + 0.5vw);
+    font-size: calc(2.5rem + 0.5vw) !important;
     margin-top: -2rem;
     text-align: center;
+}
+.error a{
+    margin-top: 1.3rem;
+    background-color: #fff;
+    color: #2e0e4f;
+    text-decoration: none;
+    padding: 0.55rem 1.1rem;
+    border-radius: 8px;
+    font-weight: 550;
+    font-size: calc(0.55rem + 0.5vw);
+    transition: all 0.3s ease;
+}
+.error a:hover{
+    background-color: #2e0e4f;
+    color: #fff;
+    box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
 }
 
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .error h1{
-        font-size: calc(2.3rem + 0.5vw);
+        font-size: calc(2.3rem + 0.5vw) !important;
+    }
+    .error a{
+        margin-top: 1.2rem;
+        padding: 0.5rem 1rem;
+        font-size: calc(0.5rem + 0.5vw);
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .error h1{
-        font-size: calc(2rem + 0.5vw);
+        font-size: calc(2rem + 0.5vw) !important;
+    }
+    .error a{
+        margin-top: 1.1rem;
+        padding: 0.45rem 0.9rem;
+        font-size: calc(0.45rem + 0.5vw);
     }
 }
 
 @media screen and (max-width: 768px) {
     .error h1{
-        font-size: calc(1.8rem + 0.5vw);
+        font-size: calc(1.8rem + 0.5vw) !important;
+    }
+    .error a{
+        margin-top: 2rem;
+        padding: 0.5rem 1rem;
+        font-size: calc(0.9rem + 0.5vw);
     }
 }

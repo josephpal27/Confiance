@@ -21,7 +21,6 @@
 }
 .about-banner .banner-content h1{
     text-align: center;
-    font-size: calc(1.8rem + 0.5vw);
     margin-bottom: 1.5rem;
 }
 .about-banner .banner-content p{
@@ -34,7 +33,6 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .about-banner .banner-content h1{
-        font-size: calc(1.6rem + 0.5vw);
         margin-bottom: 1.4rem;
     }
     .about-banner .banner-content p{
@@ -44,7 +42,6 @@
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .about-banner .banner-content h1{
-        font-size: calc(1.4rem + 0.5vw);
         margin-bottom: 1.3rem;
     }
     .about-banner .banner-content p{
@@ -66,7 +63,6 @@
         padding: 0 1rem;
     }
     .about-banner .banner-content h1{
-        font-size: calc(1.3rem + 0.5vw);
         margin-top: -5.5rem;
         margin-bottom: 5rem;
     }

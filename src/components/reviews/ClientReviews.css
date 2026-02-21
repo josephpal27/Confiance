@@ -1,16 +1,8 @@
 .client-reviews{
     background-color: #5b2096;
-    /* padding: 12rem 7% 4rem 7%; */
     padding: 6rem 7% 4rem 7%;
     position: relative;
 }
-/* .client-reviews #review-paper{
-    width: 25%;
-    position: absolute;
-    top: -2rem;
-    left: 0;
-    z-index: 10;
-} */
 .client-reviews-container{
     background-color: #300d53;
     color: #fff;
@@ -23,7 +15,6 @@
     border-bottom: 2px solid #d6954e;
 }
 .client-reviews-head h6{
-    font-size: calc(1.6rem + 0.5vw);
     text-align: center;
 }
 .reviews-slider{
@@ -105,21 +96,14 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .client-reviews{
-        /* padding: 11rem 7% 3.5rem 7%; */
         padding: 5.5rem 7% 3.5rem 7%;
     }
-    /* .client-reviews #review-paper{
-        top: -2.2rem;
-    } */
     .client-reviews-container{
         border-radius: 28px;
     }
     .client-reviews-head{
         padding: 0.9rem 0 0.9rem 0;
         border-bottom: 1.9px solid #d6954e;
-    }
-    .client-reviews-head h6{
-        font-size: calc(1.4rem + 0.5vw);
     }
     .reviews-slider .swiper-slide{
         padding: 2.8rem 4.8rem;
@@ -158,21 +142,14 @@
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .client-reviews{
-        /* padding: 10rem 7% 3rem 7%; */
         padding: 5rem 7% 3rem 7%;
     }
-    /* .client-reviews #review-paper{
-        top: -2.7rem;
-    } */
     .client-reviews-container{
         border-radius: 25px;
     }
     .client-reviews-head{
         padding: 0.8rem 0 0.8rem 0;
         border-bottom: 1.5px solid #d6954e;
-    }
-    .client-reviews-head h6{
-        font-size: calc(1.2rem + 0.5vw);
     }
     .reviews-slider .swiper-slide{
         padding: 2.5rem 4.5rem;
@@ -211,21 +188,13 @@
 
 @media screen and (max-width: 768px) {
     .client-reviews{
-        /* padding: 10rem 1rem 2rem 1rem; */
         padding: 3rem 1rem 2rem 1rem;
     }
-    /* .client-reviews #review-paper{
-        width: 50%;
-        top: -1.5rem;
-    } */
     .client-reviews-container{
         border-radius: 20px;
     }
     .client-reviews-head{
         padding: 0.8rem 1rem 0.5rem 0;
-    }
-    .client-reviews-head h6{
-        font-size: calc(1.2rem + 0.5vw);
     }
     .reviews-slider .swiper-slide{
         padding: 1rem 1rem;

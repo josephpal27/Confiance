@@ -14,7 +14,6 @@
     align-items: center;
 }
 .contact-form-map-head h6{
-    font-size: calc(1.8rem + 0.5vw);
     text-align: center;
 }
 .contact-form-map-head p{
@@ -44,9 +43,6 @@
     .contact-form-map{
         padding: 3.5rem 7% 6.5rem 7%;
     }
-    .contact-form-map-head h6{
-        font-size: calc(1.6rem + 0.5vw);
-    }
     .contact-form-map-head p{
         font-size: calc(0.9rem + 0.5vw);
         margin-top: 0.28rem;
@@ -60,9 +56,6 @@
     .contact-form-map{
         padding: 3rem 7% 5.5rem 7%;
     }
-    .contact-form-map-head h6{
-        font-size: calc(1.4rem + 0.5vw);
-    }
     .contact-form-map-head p{
         font-size: calc(0.8rem + 0.5vw);
         margin-top: 0.25rem;
@@ -75,9 +68,6 @@
 @media screen and (max-width: 768px) {
     .contact-form-map{
         padding: 2rem 1rem 3rem 1rem;
-    }
-    .contact-form-map-head h6{
-        font-size: calc(1.2rem + 0.5vw);
     }
     .contact-form-map-head h6 br{
         display: none;

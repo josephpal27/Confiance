@@ -3,7 +3,6 @@
     padding: 4rem 7%;
 }
 .our-awards h6{
-    font-size: calc(1.8rem + 0.5vw);
     color: #fff;
 }
 .our-awards .awards-tabbing-container{
@@ -38,7 +37,6 @@
     justify-content: space-between;
 }
 .our-awards .awards-tabbing-container .nav-link.active{
-    /* background: linear-gradient(180deg, #836c9ad3 0%, #300d53 80%); */
     background: linear-gradient(180deg, #ba7d3c 0%, #703f0f 80%);
 }
 .our-awards .awards-tabbing-container .nav-link a{
@@ -62,9 +60,6 @@
     .our-awards{
         padding: 3.5rem 7%;
     }
-    .our-awards h6{
-        font-size: calc(1.6rem + 0.5vw);
-    }
     .our-awards .awards-tabbing-container{
         margin-top: 2.5rem;
     }
@@ -82,9 +77,6 @@
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .our-awards{
         padding: 3rem 7%;
-    }
-    .our-awards h6{
-        font-size: calc(1.4rem + 0.5vw);
     }
     .our-awards .awards-tabbing-container{
         margin-top: 2.2rem;
@@ -105,7 +97,6 @@
         padding: 2rem 1rem;
     }
     .our-awards h6{
-        font-size: calc(1.4rem + 0.5vw);
         text-align: center;
     }
     .our-awards .awards-tabbing-container{

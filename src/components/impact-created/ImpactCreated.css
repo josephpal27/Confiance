@@ -10,7 +10,6 @@
     color: #fff;
 }
 .impact-created .impact-content h3{
-    font-size: calc(1.8rem + 0.5vw);
     margin-top: 10rem;
 }
 .impact-created .impact-content p{
@@ -45,9 +44,6 @@
     .impact-created{
         padding: 1.5rem 0 2.5rem 7%;
     }
-    .impact-created .impact-content h3{
-        font-size: calc(1.6rem + 0.5vw);
-    }
     .impact-created .impact-content p{
         font-size: calc(0.6rem + 0.5vw);
         margin-top: 1.9rem;
@@ -68,7 +64,6 @@
         padding: 1.5rem 0 1.7rem 7%;
     }
     .impact-created .impact-content h3{
-        font-size: calc(1.4rem + 0.5vw);
         margin-top: 9rem;
     }
     .impact-created .impact-content p{
@@ -94,7 +89,6 @@
         width: 100%;
     }
     .impact-created .impact-content h3{
-        font-size: calc(1.3rem + 0.5vw);
         margin-top: 0;
         text-align: center;
     }

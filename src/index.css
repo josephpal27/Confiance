@@ -22,7 +22,7 @@ body{
   src: url("./assets/fonts/tbj-one-more.otf") format("opentype");
 } */
 
-@font-face {
+/* @font-face {
   font-family: "hinato";
   src: url("./assets/fonts/hinato.otf") format("opentype");
 }
@@ -30,14 +30,14 @@ body{
 @font-face {
   font-family: "OliGroteskL-Black";
   src: url("./assets/fonts/OliGroteskL-Black.otf") format("opentype");
-}
+} */
 
 h1, h2, h3, h4, h5, h6{
     /* font-family: "StretchPro", sans-serif !important; */
     /* font-family: "tbj-one-more", sans-serif !important; */
     /* font-family: "hinato", sans-serif !important; */
     /* font-family: "OliGroteskL-Black", sans-serif !important; */
-    font-family: "Montserrat", sans-serif !important;
+    /* font-family: "Montserrat", sans-serif !important; */
     text-transform: capitalize;
     font-size: calc(2.3rem + 0.5vw) !important;
     font-weight: 650 !important;

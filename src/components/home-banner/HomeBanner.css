@@ -21,7 +21,6 @@
 }
 .home-banner .banner-content h1{
     text-align: center;
-    font-size: calc(1.8rem + 0.5vw);
 }
 .home-banner .banner-content p{
     text-align: center;
@@ -49,9 +48,6 @@
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-    .home-banner .banner-content h1{
-        font-size: calc(1.6rem + 0.5vw);
-    }
     .home-banner .banner-content p{
         font-size: calc(0.6rem + 0.5vw);
         margin-top: 0.9rem;
@@ -64,9 +60,6 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-    .home-banner .banner-content h1{
-        font-size: calc(1.4rem + 0.5vw);
-    }
     .home-banner .banner-content p{
         font-size: calc(0.55rem + 0.5vw);
         margin-top: 0.8rem;
