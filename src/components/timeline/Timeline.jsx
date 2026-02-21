@@ -5,7 +5,7 @@ const Timeline = () => {
     return (
         <>
             <section className="timeline">
-                <h2 data-aos="fade-up">OUR JOURNEY</h2>
+                <h2 data-aos="fade-up">Our Journey</h2>
                 <div className="timeline-content">
                     {
                         timelineData.map((item, index) => {

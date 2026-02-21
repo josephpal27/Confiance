@@ -34,6 +34,9 @@
 .navbar .nav-link:hover::after {
   width: 50%;
 }
+.navbar .nav-link.active::after {
+  width: 50%;
+}
 .navbar .get-in-touch-btn {
   background-color: #fff;
   color: #2e0e4f;

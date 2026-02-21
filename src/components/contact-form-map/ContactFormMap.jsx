@@ -6,7 +6,7 @@ const ContactFormMap = () => {
         <>
             <section className="contact-form-map" id="get-in-touch">
                 <div className="contact-form-map-head">
-                    <h6 data-aos="fade">Every Story Needs Telling and <br /> We Would Love to Help Tell Yours!</h6>
+                    <h6 data-aos="fade">Every Story Needs Telling And <br /> We Would Love To Help Tell Yours!</h6>
                     <p data-aos="fade">Leave your details below to start a conversation</p>
                 </div>
                 <div className="contact-form-map-row">
