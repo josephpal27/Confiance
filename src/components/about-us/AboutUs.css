@@ -28,6 +28,7 @@
 }
 .about-us-content .down-icon{
     font-size: calc(1.5rem + 0.5vw);
+    color: #fff;
 }
 
 /* Media Queries */

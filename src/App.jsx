@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import MyNavbar from "./components/navbar/Navbar"
 import Footer from './components/footer/Footer';
 import PageTitle from "./components/PageTitle";
+import ScrollToTop from './components/ScrollToTop';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import AOS from "aos";
@@ -35,6 +36,7 @@ const App = () => {
       <MyNavbar />
       <Outlet />
       <Footer />
+      <ScrollToTop />
       <ToastContainer position="top-right" autoClose={4000} />
     </>
   )

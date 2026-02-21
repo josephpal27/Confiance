@@ -1,6 +1,7 @@
 import './AboutUs.css';
 import aboutImage from '../../assets/images/about-us.avif';
 import { RiArrowDownWideFill } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
   return (
@@ -14,7 +15,7 @@ const AboutUs = () => {
             <p data-aos="fade">Confiance is a strategic Communications partner to founders and institutions navigating growth and complexity.</p>
             <p data-aos="fade">We operate as an extension of leadership teams, bringing business context, disciplined storytelling, and seasoned judgement to every engagement. Our work sits at the intersection of strategy and communication — translating complex boardroom thinking into credible public narratives.</p>
             <p data-aos="fade">Over the years, we’ve partnered with 300+ brands across stages and sectors, supporting product launches, market entries, fundraising journeys, and reputation-building at critical inflection points.</p>
-            <RiArrowDownWideFill className="down-icon" data-aos="fade"/>
+            <Link to="/about"><RiArrowDownWideFill className="down-icon" data-aos="fade"/></Link>
         </div>
       </section>
     </>
