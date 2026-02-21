@@ -115,7 +115,9 @@
         margin-bottom: 0.5rem;
     }
     .our-awards .awards-tabbing-container .nav-link a{
-        font-size: calc(0.65rem + 0.5vw);
-        gap: 0.3rem;
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .our-awards .awards-tabbing-container .nav-link a span{
+        display: none;
     }
 }
