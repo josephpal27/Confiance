@@ -8,13 +8,13 @@
     flex-wrap: wrap;
 }
 .about-us .about-us-image{
-    width: 35%;
+    width: 34%;
 }
 .about-us .about-us-image img{
     width: 100%;
 }
 .about-us-content{
-    width: 60%;
+    width: 62%;
     color: #fff;
     text-align: center;
 }
@@ -22,6 +22,10 @@
     font-size: calc(0.65rem + 0.5vw);
     margin: 1.2rem auto 0.3rem;
     font-weight: 400;
+}
+.about-us-content p span{
+    font-weight: 550;
+    color: #f8a853;
 }
 .about-us-content .down-icon{
     font-size: calc(1.5rem + 0.5vw);
