@@ -1,6 +1,5 @@
 import './ImpactCreated.css';
 import impactImage from '../../assets/images/impact-created.avif';
-// import micImage from '../../assets/images/announce.avif';
 
 const ImpactCreated = () => {
   return (
@@ -20,7 +19,6 @@ const ImpactCreated = () => {
             <img src={impactImage} alt="Impact Created" loading="lazy" />
           </div>
         </div>
-        {/* <img src={micImage} alt="Annouce" loading="lazy" id="announce"/> */}
       </section>
     </>
   )

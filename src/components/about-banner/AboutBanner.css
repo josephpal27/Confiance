@@ -29,6 +29,10 @@
     width: 75%;
     font-weight: 400;
 }
+.about-banner .banner-content p span{
+    font-weight: 550;
+    color: #f8a853;
+}
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {

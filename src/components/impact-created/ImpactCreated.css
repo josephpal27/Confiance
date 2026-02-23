@@ -32,12 +32,6 @@
 .impact-created .impact-images img{
     width: 100%;
 }
-.impact-created #announce{
-    width: 29%;
-    position: absolute;
-    bottom: -5rem;
-    left: 0;
-}
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
@@ -53,9 +47,6 @@
         padding: 4.5rem 7% 4.5rem 5.5%;
         border-top-left-radius: 80px;
         border-bottom-left-radius: 80px;
-    }
-    .impact-created #announce{
-        bottom: -5.5rem;
     }
 }
 
@@ -75,9 +66,6 @@
         padding: 4rem 7% 4rem 5%;
         border-top-left-radius: 70px;
         border-bottom-left-radius: 70px;
-    }
-    .impact-created #announce{
-        bottom: -5.8rem;
     }
 }
 
@@ -103,9 +91,5 @@
         padding: 1.1rem 1.1rem 1.1rem 1.1rem;
         border-radius: 15px;
         margin-top: 1.5rem;
-    }
-    .impact-created #announce{
-        top: 0;
-        width: 35%;
     }
 }

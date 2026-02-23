@@ -21,12 +21,6 @@
     width: 24%;
     margin-top: 3.5rem;
 }
-.certificates #microphone{
-    width: 30%;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
@@ -77,8 +71,5 @@
     .certificates img{
         margin-top: 1.5rem;
         width: 70%;
-    }
-    .certificates #microphone{
-        width: 40%;
     }
 }
