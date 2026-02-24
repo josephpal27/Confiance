@@ -22,7 +22,7 @@
     border-radius: 8px;
     font-weight: 550;
     font-size: calc(0.55rem + 0.5vw);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease !important;
 }
 .error a:hover{
     background-color: #2e0e4f;

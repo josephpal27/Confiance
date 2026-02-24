@@ -1,5 +1,5 @@
 import './ImpactCreated.css';
-import impactImage from '../../assets/images/impact-created.avif';
+import newsImage from '../../assets/images/news.avif';
 
 const ImpactCreated = () => {
   return (
@@ -16,7 +16,25 @@ const ImpactCreated = () => {
         </div>
         <div className="impact-images">
           <div className="impact-image-container">
-            <img src={impactImage} alt="Impact Created" loading="lazy" />
+            <div className="impact-left">
+              <div className="impact-image-box">
+                <img src="/images/impact-created/1.png" alt="Impact 1" loading="lazy" />
+              </div>
+              <div className="impact-image-box">
+                <img src={newsImage} alt="News" loading="lazy" />
+              </div>
+              <div className="impact-image-box">
+                <img src="/images/impact-created/1.png" alt="Impact 2" loading="lazy" />
+              </div>
+            </div>
+            <div className="impact-right">
+              <div className="impact-image-box">
+                <img src="/images/impact-created/2.png" alt="Impact 2" loading="lazy" />
+              </div>
+              <div className="impact-image-box">
+                <img src="/images/impact-created/2.png" alt="Impact 2" loading="lazy" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
