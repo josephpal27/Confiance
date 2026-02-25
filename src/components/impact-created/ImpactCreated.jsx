@@ -51,8 +51,8 @@ const ImpactCreated = () => {
     <section className="impact-created">
 
       <div className="impact-content">
-        <h3>Impact Created</h3>
-        <p>
+        <h3 data-aos="fade-up">Impact Created</h3>
+        <p data-aos="fade">
           Built 100+ Category Leaders <br /><br />
           Devised and Deployed Award Winning Campaigns <br /><br />
           Helped Clients Attract ~$1.3 Billion in Funding <br /><br />

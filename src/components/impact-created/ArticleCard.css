@@ -10,25 +10,27 @@
 .impact-created .article-card .overlay{
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.644);
+    background: rgba(0, 0, 0, 0.684);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     opacity: 0;
     transition: 0.3s ease;
+    padding: 1rem;
 }
 .impact-created .article-card .overlay a{
-    background-color: #ba7d3c;
-    color: #fff;
-    padding: 0.4rem 1rem;
-    font-size: calc(0.5rem + 0.5vw);
+    background-color: #fff;
+    color: #ba7d3c;
+    padding: 0.2rem 0.7rem;
+    font-size: calc(0.45rem + 0.5vw);
     font-weight: 550;
-    border-radius: 30px;
+    border-radius: 7px;
     transition: all 0.2s ease;
     text-decoration: none;
 }
 .impact-created .article-card .overlay a:hover{
-    background-color: #9b6225;
+    background-color: #ba7d3c;
+    color: #fff;
 }
 .impact-created .article-card:hover .overlay{
     opacity: 1;

@@ -15,7 +15,7 @@ const ClientReviews = () => {
             <section className="client-reviews">
                 <div className="client-reviews-container">
                     <div className="client-reviews-head">
-                        <h6 data-aos="fade-left">What Clients Say About Us</h6>
+                        <h6 data-aos="fade-right">What Clients Say About Us</h6>
                     </div>
                     <div className="client-reviews-body">
                         <div className="reviews-slider">
