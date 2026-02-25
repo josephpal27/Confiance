@@ -61,6 +61,13 @@
         border-top-left-radius: 80px;
         border-bottom-left-radius: 80px;
     }
+    .impact-created .impact-image-container{
+        gap: 0.9rem;
+    }
+    .impact-created .impact-image-container .impact-left,
+    .impact-created .impact-image-container .impact-right{
+        gap: 0.9rem;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
@@ -79,6 +86,13 @@
         padding: 4rem 7% 4rem 5%;
         border-top-left-radius: 70px;
         border-bottom-left-radius: 70px;
+    }
+    .impact-created .impact-image-container{
+        gap: 0.8rem;
+    }
+    .impact-created .impact-image-container .impact-left,
+    .impact-created .impact-image-container .impact-right{
+        gap: 0.8rem;
     }
 }
 
@@ -101,8 +115,15 @@
     }
     .impact-created .impact-images{
         width: 100%;
-        padding: 1.1rem 1.1rem 1.1rem 1.1rem;
+        padding: 0.7rem 0.7rem 0.7rem 0.7rem;
         border-radius: 15px;
         margin-top: 1.5rem;
+    }
+    .impact-created .impact-image-container{
+        gap: 0.7rem;
+    }
+    .impact-created .impact-image-container .impact-left,
+    .impact-created .impact-image-container .impact-right{
+        gap: 0.7rem;
     }
 }

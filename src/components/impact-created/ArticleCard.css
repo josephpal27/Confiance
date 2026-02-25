@@ -35,3 +35,46 @@
 .impact-created .article-card:hover .overlay{
     opacity: 1;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .impact-created .article-card{
+        border-radius: 9px;
+    }
+    .impact-created .article-card .overlay{
+        padding: 0.9rem;
+    }
+    .impact-created .article-card .overlay a{
+        padding: 0.18rem 0.65rem;
+        font-size: calc(0.4rem + 0.5vw);
+        border-radius: 6px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .impact-created .article-card{
+        border-radius: 8px;
+    }
+    .impact-created .article-card .overlay{
+        padding: 0.8rem;
+    }
+    .impact-created .article-card .overlay a{
+        padding: 0.15rem 0.6rem;
+        font-size: calc(0.35rem + 0.5vw);
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .impact-created .article-card{
+        border-radius: 5px;
+    }
+    .impact-created .article-card .overlay{
+        padding: 0.8rem;
+    }
+    .impact-created .article-card .overlay a{
+        padding: 0.12rem 0.6rem;
+        font-size: calc(0.7rem + 0.5vw);
+        border-radius: 5px;
+    }
+}
