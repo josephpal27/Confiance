@@ -1,0 +1,35 @@
+.impact-created .article-card{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.5s cubic-bezier(0.2, 0, 0.5, 1);
+}
+.impact-created .article-card.flip{
+    transform: rotateY(90deg);
+}
+.impact-created .article-card .overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.644);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.impact-created .article-card .overlay a{
+    background-color: #ba7d3c;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    font-size: calc(0.5rem + 0.5vw);
+    font-weight: 550;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+.impact-created .article-card .overlay a:hover{
+    background-color: #9b6225;
+}
+.impact-created .article-card:hover .overlay{
+    opacity: 1;
+}
