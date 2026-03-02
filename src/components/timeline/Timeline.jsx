@@ -6,23 +6,32 @@ const Timeline = () => {
         <>
             <section className="timeline">
                 <h2 data-aos="fade-up">Our Journey</h2>
-                <div className="timeline-content">
-                    {
-                        timelineData.map((item, index) => {
-                            return (
-                                <div className="timeline-box" key={index} data-aos="fade">
-                                    <span>{item.date}, <br /> {item.title}</span>
-                                    {
-                                        item.desc.map((para, i) => {
-                                            return(
-                                                <p key={i}>{para}</p>
-                                            )
-                                        })
-                                    }
+                <div className="timeline-wrapper">
+                    {timelineData.map((item, index) => (
+                        <div
+                            className={`timeline-row ${index % 2 !== 0 ? "reverse" : ""}`}
+                            key={index}
+                        >
+                            {/* LEFT SIDE */}
+                            <div className="timeline-left">
+                                {/* <h3 className="year">{item.date}</h3> */}
+                                <div className="image-circle">
+                                    <img src={item.img} alt={item.year} />
                                 </div>
-                            )
-                        })
-                    }
+                            </div>
+
+                            {/* CENTER */}
+                            <div className="timeline-center">
+                                <span className="dot"></span>
+                            </div>
+
+                            {/* RIGHT SIDE */}
+                            <div className="timeline-right">
+                                <h4>{item.title}</h4>
+                                <p>{item.desc}</p>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </section>
         </>

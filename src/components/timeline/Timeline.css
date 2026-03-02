@@ -1,6 +1,139 @@
-.timeline{
+.timeline {
+  background: #5b2096;
+  padding: 2rem 7%;
+  color: white;
+}
+
+.timeline h2 {
+  text-align: center;
+  /* font-size: 2.5rem; */
+  margin-bottom: 4rem;
+}
+
+/* wrapper */
+.timeline-wrapper {
+  position: relative;
+}
+
+/* vertical center line */
+.timeline-wrapper::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: white;
+  transform: translateX(-50%);
+}
+
+/* row */
+.timeline-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6rem;
+}
+
+/* equal width sides */
+.timeline-left,
+.timeline-right {
+  width: 45%;
+}
+
+/* center column */
+.timeline-center {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+/* dot */
+.dot {
+  width: 25px;
+  height: 25px;
+  background: white;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/* left alignment */
+.timeline-left {
+  text-align: right;
+  padding-right: 2rem;
+}
+
+/* right content */
+.timeline-right {
+  padding-left: 2rem;
+}
+
+.timeline-right h4 {
+  font-size: 1.6rem !important;
+  margin-bottom: 0.6rem;
+}
+
+.timeline-right p {
+  line-height: 1.6;
+}
+
+/* year */
+.year {
+  font-size: 2.3rem !important;
+  margin-bottom: 1.5rem;
+}
+
+/* image circle */
+.image-circle {
+  width: 320px;
+  height: 320px;
+  background: #3f116b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-circle img {
+  width: 90%;
+}
+
+/* align image properly */
+.timeline-left .image-circle {
+  margin-left: auto;
+}
+
+.timeline-row.reverse .timeline-left .image-circle {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+/* reverse layout */
+.timeline-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.timeline-row.reverse .timeline-left {
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 0;
+}
+
+.timeline-row.reverse .timeline-right {
+  text-align: right;
+  padding-right: 2rem;
+  padding-left: 0;
+}
+
+
+
+
+
+
+
+/* .timeline{
     background-color: #5b2096;
-    padding: 4rem 7% 3rem 7%;
+    padding: 1rem 7% 3rem 7%;
     color: #fff;
     overflow: hidden;
 }
@@ -9,8 +142,8 @@
 }
 .timeline-content{
     margin-top: 3rem;
-}
-.timeline-box{
+} */
+/* .timeline-box{
     margin-bottom: 3.5rem;
     border-bottom: 2px solid #d2d2d2;
     padding-bottom: 1rem;
@@ -24,7 +157,7 @@
 .timeline-box p{
     font-size: calc(0.65rem + 0.5vw);
     font-weight: 400;
-}
+} */
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
