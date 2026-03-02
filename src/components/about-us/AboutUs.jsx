@@ -1,5 +1,5 @@
 import './AboutUs.css';
-import aboutImage from '../../assets/images/about-us.avif';
+import founderImage from '../../assets/images/founder.avif';
 import { RiArrowDownWideFill } from "react-icons/ri";
 import { Link } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ const AboutUs = () => {
     <>
       <section className="about-us">
         <div className="about-us-image">
-          <img src={aboutImage} alt="Founder" loading="lazy" />
+          <img src={founderImage} alt="Founder" loading="lazy" />
         </div>
         <div className="about-us-content">
             <h2 data-aos="fade-up">About Us</h2>

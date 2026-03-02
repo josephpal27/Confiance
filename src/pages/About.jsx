@@ -6,8 +6,8 @@ const About = () => {
     return (
         <>
             <AboutBanner />
-            <Timeline />
             <Founder />
+            <Timeline />
         </>
     )
 }
