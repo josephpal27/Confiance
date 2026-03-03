@@ -12,7 +12,7 @@ const Timeline = () => {
                             className={`timeline-row ${index % 2 !== 0 ? "reverse" : ""}`}
                             key={index}
                         >
-                            {/* LEFT SIDE */}
+                            {/* Left Side */}
                             <div className="timeline-left">
                                 {/* <h3 className="year">{item.date}</h3> */}
                                 <div className="image-circle">
