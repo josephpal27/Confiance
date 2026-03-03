@@ -25,7 +25,7 @@ const Timeline = () => {
                                 <span className="dot"></span>
                             </div>
 
-                            {/* RIGHT SIDE */}
+                            {/* Right Side */}
                             <div className="timeline-right">
                                 <h4>{item.title}</h4>
                                 <p>{item.desc}</p>
