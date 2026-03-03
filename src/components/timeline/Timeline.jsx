@@ -20,7 +20,7 @@ const Timeline = () => {
                                 </div>
                             </div>
 
-                            {/* CENTER */}
+                            {/* Center */}
                             <div className="timeline-center">
                                 <span className="dot"></span>
                             </div>
