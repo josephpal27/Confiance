@@ -14,7 +14,7 @@ const Timeline = () => {
                         >
                             {/* Left Side */}
                             <div className="timeline-left">
-                                <h3 className="year">{item.date}</h3>
+                                {/* <h3 className="year">{item.date}</h3> */}
                                 <div className="image-circle">
                                     <img src={item.img} alt={item.year} />
                                 </div>
