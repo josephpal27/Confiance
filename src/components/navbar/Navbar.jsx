@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
@@ -55,9 +54,9 @@ const MyNavbar = () => {
 
                     {/* Right Side */}
                     <div className="right-btn-wrapper">
-                        <HashLink smooth to="/contact#get-in-touch" className="get-in-touch-btn" onClick={handleClose}>
+                        <a href="https://topmate.io/bushra_ismail10/1980156" target="_blank" className="get-in-touch-btn">
                             Talk To Our Experts
-                        </HashLink>
+                        </a>
                     </div>
                 </Offcanvas.Body>
             </Navbar.Offcanvas>
