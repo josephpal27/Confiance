@@ -31,7 +31,6 @@
 .founder p{
     font-size: calc(0.65rem + 0.5vw);
     font-weight: 400;
-    text-align: end;
 }
 .founder p span{
     font-weight: 550;

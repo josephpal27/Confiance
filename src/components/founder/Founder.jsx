@@ -11,15 +11,15 @@ const Founder = () => {
                     <img src={glassShape} alt="Glass Element" loading="lazy" />
                 </div>
                 <div className="founder-top">
-                    <div className="founder-top-image">
-                        <img src={founderImage} alt="Founder" loading="lazy" data-aos="fade" />
-                    </div>
                     <div className="founder-top-content" data-aos="fade">
                         <p>The trajectory outlined above did not begin in 2018.</p>
                         <p>It was shaped over more than a decade of immersion in newsrooms, PR ecosystems, and corporate boardrooms — long before Confiance had a name.</p>
                         <p><span>Bushra Ismail’s</span> professional foundation was built at the intersection of journalism, strategic Communications, and institutional leadership. Her early newsroom experience at CNN-News18 sharpened her editorial judgement and instinct for credibility. Her agency years, working closely with industry stalwarts, trained her in narrative discipline, stakeholder management, and long-horizon reputation building. Her role at Turkish Airlines, helming Communications for its India market, groomed her in enterprise-level execution at scale, where public perception, regulatory environments, and business strategy intersect daily.</p>
                         <p>Across these environments, one conviction took shape early: that communication delivers disproportionate impact only when it is treated as a strategic system, not a last-mile function.</p>
                         <p>This conviction underpins every phase of Confiance’s journey.</p>
+                    </div>
+                    <div className="founder-top-image">
+                        <img src={founderImage} alt="Founder" loading="lazy" data-aos="fade" />
                     </div>
                 </div>
                 <div className="founder-bottom" data-aos="fade">

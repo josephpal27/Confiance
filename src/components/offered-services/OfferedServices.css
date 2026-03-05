@@ -17,6 +17,8 @@
     padding: 2rem;
     border-radius: 10px;
     box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
+    display: flex;
+    align-items: center;
 }
 .offered-services .service-box:hover{
     box-shadow: rgba(255, 255, 255, 0.521) 0px 3px 8px;
