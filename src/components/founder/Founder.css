@@ -41,10 +41,10 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .founder{
-        padding: 0 7% 3.5rem 7%;
+        padding: 3.5rem 7% 3.5rem 7%;
     }
     .founder h2{
-        margin-bottom: 1.8rem;
+        margin-bottom: 3.3rem;
     }
     .founder p{
         font-size: calc(0.6rem + 0.5vw);
@@ -53,10 +53,10 @@
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .founder{
-        padding: 0 7% 3rem 7%;
+        padding: 3rem 7% 3rem 7%;
     }
     .founder h2{
-        margin-bottom: 1.6rem;
+        margin-bottom: 3.1rem;
     }
     .founder p{
         font-size: calc(0.55rem + 0.5vw);
@@ -64,23 +64,5 @@
 }
 
 @media screen and (max-width: 768px) {
-    .founder{
-        padding: 0 1rem 3rem 1rem;
-    }
-    .founder .founder-top{
-        flex-direction: column-reverse;
-    }
-    .founder .founder-top-content{
-        width: 100%;
-        margin-top: 3rem;
-    }
-    .founder .founder-top-image{
-        width: 100%;
-    }
-    .founder h2{
-        margin-bottom: 1.5rem;
-    }
-    .founder p{
-        font-size: calc(1rem + 0.5vw);
-    }
+    
 }
