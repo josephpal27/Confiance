@@ -20,6 +20,7 @@
   height: 100%;
   background: #fff;
   transform: translateX(-50%);
+  border-radius: 10px;
 }
 .timeline-row{
   display: flex;
@@ -37,12 +38,19 @@
   justify-content: center;
 }
 .timeline-center .dot{
-  width: 25px;
-  height: 25px;
+  width: 17px;
+  height: 17px;
   background: #fff;
   border-radius: 50%;
   z-index: 2;
+  box-shadow: 0 0 0 8px rgba(255,255,255,0.25);
+  /* animation: pulse 1.7s infinite; */
 }
+/* @keyframes pulse{
+  0%{ box-shadow:0 0 0 0 rgba(255,255,255,0.4);}
+  70%{ box-shadow:0 0 0 12px rgba(255,255,255,0);}
+  100%{ box-shadow:0 0 0 0 rgba(255,255,255,0);}
+} */
 .timeline-left{
   text-align: right;
   padding-right: 2rem;

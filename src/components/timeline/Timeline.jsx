@@ -14,23 +14,23 @@ const Timeline = () => {
                         >
                             {/* Left Side */}
                             <div className="timeline-left">
-                                <span className="year">{item.date}</span>
+                                <span className="year" data-aos="fade">{item.date}</span>
                                 <div className="image-circle">
-                                    <img src={item.image} alt={item.year} />
+                                    <img src={item.image} alt={item.date} loading="lazy" />
                                 </div>
                             </div>
 
                             {/* Center */}
                             <div className="timeline-center">
-                                <span className="dot"></span>
+                                <span className="dot" data-aos="fade-down" data-aos-duration="500"></span>
                             </div>
 
                             {/* Right Side */}
                             <div className="timeline-right">
-                                <span>{item.title}</span>
+                                <span data-aos="fade" data-aos-once="true">{item.title}</span>
                                 {
                                     item.desc.map((text, index) => (
-                                        <p key={index}>{text}</p>
+                                        <p key={index} data-aos="fade" data-aos-once="true">{text}</p>
                                     ))
                                 }
                             </div>
