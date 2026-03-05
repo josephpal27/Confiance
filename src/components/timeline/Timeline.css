@@ -52,7 +52,6 @@
   100%{ box-shadow:0 0 0 0 rgba(255,255,255,0);}
 } */
 .timeline-left{
-  text-align: right;
   padding-right: 2rem;
 }
 .timeline-right{
@@ -71,19 +70,18 @@
 }
 
 .timeline-left .year{
-  font-size: calc(2rem + 0.5vw);
+  font-size: calc(2.2rem + 0.5vw);
   font-weight: 700;
-  display: block;
-  margin-bottom: 1.5rem;
 }
 .timeline-left .image-circle{
-  width: 50%;
+  width: 70%;
   aspect-ratio: 1/1;
   background: #3f116b;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: rgba(255, 255, 255, 0.123) 3px 3px 4px;
 }
 .timeline-left .image-circle img{
   width: 100%;
@@ -101,7 +99,7 @@
   flex-direction: row-reverse;
 }
 .timeline-row.reverse .timeline-left{
-  text-align: left;
+  text-align: right;
   padding-left: 2rem;
   padding-right: 0;
 }
@@ -146,7 +144,7 @@
   }
 
   .timeline-left .year{
-    font-size: calc(1.9rem + 0.5vw);
+    font-size: calc(2.1rem + 0.5vw);
     margin-bottom: 1.4rem;
   }
   .timeline-row.reverse .timeline-left{
@@ -192,7 +190,7 @@
   }
 
   .timeline-left .year{
-    font-size: calc(1.8rem + 0.5vw);
+    font-size: calc(1.9rem + 0.5vw);
     margin-bottom: 1.3rem;
   }
   .timeline-row.reverse .timeline-left{
