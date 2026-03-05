@@ -2,6 +2,7 @@ export const timelineData = [
     {
         id: 1,
         date: "Mid 2018",
+        image: "/images/timeline/mid-2018.png",
         title: "The work finds its way",
         desc: [
             "After stepping away from a decade-long career in Communications, Bushra took a professional sabbatical. She decided to learn French, and live her ‘Eat, Pray, Love’ life before getting back into the familiar corporate grind. But destiny had other plans. Within weeks, before she could move beyond tourist French, founders from her professional network—who had experienced her hands-on, outcome-driven way of working firsthand-reached out seeking counsel.",
@@ -14,6 +15,7 @@ export const timelineData = [
     {
         id: 2,
         date: "Late 2018",
+        image: "/images/timeline/late-2018.png",
         title: "Momentum takes over",
         desc: [
             "As PR results compounded, so did referrals. Bushra’s approach to brand-building—non-templated and deeply counsel-driven—was not something new-age brands were familiar with. Founders insisted on working with her, often bypassing long-established organisations in the market.",
@@ -24,6 +26,7 @@ export const timelineData = [
     {
         id: 3,
         date: "Early 2019",
+        image: "/images/timeline/early-2019.png",
         title: "Confiance takes shape",
         desc: [
             "Confiance was formally established to support what was already in motion, and institutionalise the expertise, professional values, and approach Bushra had already become reputed for.",
@@ -34,6 +37,7 @@ export const timelineData = [
     {
         id: 4,
         date: "2019",
+        image: "/images/timeline/2019.png",
         title: "Credibility scales, quietly",
         desc: [
             "Within months of formalising, Confiance won multiple mandates — all referral-led, all rooted in founder trust rather than outbound selling and exaggerated promises.",
@@ -46,6 +50,7 @@ export const timelineData = [
     {
         id: 5,
         date: "2020",
+        image: "/images/timeline/2020.png",
         title: "Becoming the obvious choice",
         desc: [
             "As the ecosystem expanded, so did Confiance’s role. The firm became known for shaping narratives from scratch that founders took pride growing into.",
@@ -58,6 +63,7 @@ export const timelineData = [
     {
         id: 6,
         date: "2021",
+        image: "/images/timeline/2021.png",
         title: "From founders to institutions",
         desc: [
             "With increasing engagement from the investors’ ecosystem, Confiance formalised its Venture Capital branding practice, partnering with funds such as Granite Asia, Leo Capital, Gruhas, All In Capital, growX ventures, and Sadev Ventures, along with their portfolio companies, to build narrative coherence across stages of growth.",
@@ -70,6 +76,7 @@ export const timelineData = [
     {
         id: 7,
         date: "2022",
+        image: "/images/timeline/2022.png",
         title: "Expanding into culture-led categories",
         desc: [
             "Confiance extended its winning model into Luxury, Hospitality, and Tourism—sectors where perception, discretion, and cultural nuance are as critical as visibility—and scored mandates from heavyweights like Turkiye Tourism Board, The Quorum Club, and Raga Svara. Each of these relationships evolved into long-term partnerships, continuing to be with Confiance even as of 2026.",
@@ -80,6 +87,7 @@ export const timelineData = [
     {
         id: 8,
         date: "2023",
+        image: "/images/timeline/2023.png",
         title: "When PR quietly became counsel",
         desc: [
             "By 2023, something subtle yet decisive had shifted inside Confiance’s client relationships.",
@@ -100,6 +108,7 @@ export const timelineData = [
     {
         id: 9,
         date: "2024",
+        image: "/images/timeline/2024.png",
         title: "Choosing depth over breadth",
         desc: [
             "With deeper access came harder choices.",
@@ -122,6 +131,7 @@ export const timelineData = [
     {
         id: 10,
         date: "2025",
+        image: "/images/timeline/2025.png",
         title: "Becoming inner-circle partners",
         desc: [
             "By 2025, the consequences of those choices became visible.",
@@ -140,6 +150,7 @@ export const timelineData = [
     {
         id: 11,
         date: "2026",
+        image: "/images/timeline/2026.png",
         title: "The becoming of a Cult",
         desc: [
             "Today, the cumulative effect of years of judgement, restraint, and long-term thinking is visible.",

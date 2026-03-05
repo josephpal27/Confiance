@@ -5,7 +5,7 @@ const Timeline = () => {
     return (
         <>
             <section className="timeline">
-                <h2 data-aos="fade-up">Our Journey</h2>
+                <h3 data-aos="fade-up">Our Journey</h3>
                 <div className="timeline-wrapper">
                     {timelineData.map((item, index) => (
                         <div
@@ -14,9 +14,9 @@ const Timeline = () => {
                         >
                             {/* Left Side */}
                             <div className="timeline-left">
-                                {/* <h3 className="year">{item.date}</h3> */}
+                                <span className="year">{item.date}</span>
                                 <div className="image-circle">
-                                    <img src={item.img} alt={item.year} />
+                                    <img src={item.image} alt={item.year} />
                                 </div>
                             </div>
 
@@ -27,8 +27,12 @@ const Timeline = () => {
 
                             {/* Right Side */}
                             <div className="timeline-right">
-                                <h4>{item.title}</h4>
-                                <p>{item.desc}</p>
+                                <span>{item.title}</span>
+                                {
+                                    item.desc.map((text, index) => (
+                                        <p key={index}>{text}</p>
+                                    ))
+                                }
                             </div>
                         </div>
                     ))}
