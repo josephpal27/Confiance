@@ -7,19 +7,6 @@
     height: 88vh;
     position: relative;
 }
-.about-banner .overlay{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.about-banner .overlay img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(180%);
-}
 .about-banner .about-banner-content{
     width: 57%;
     color: #fff;

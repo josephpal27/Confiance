@@ -5,9 +5,6 @@ const AboutBanner = () => {
     return (
         <>
             <section className="about-banner">
-                    <div className="overlay">
-                        <img src="/images/banners/aurora-bg.png" alt="Aurora Background" loading="lazy" />
-                    </div>
                     <div className="about-banner-content">
                         <h1 data-aos="fade-up">Know Your PR Partner</h1>
                         <p data-aos="fade">Founded by seasoned Publicist <span>Bushra Ismail</span>, Confiance emerged from a clear industry gap: public relations had become overly focused on promotion and short-term optics, while critical leadership thinking, business risk, and strategic inflection points remained absent from public discourse.</p>
