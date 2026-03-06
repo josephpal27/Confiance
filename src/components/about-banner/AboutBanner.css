@@ -59,5 +59,24 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    .about-banner{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding: 0 0 1rem 1rem;
+        height: auto;
+    }
+    .about-banner .about-banner-content{
+        width: 100%;
+        padding-right: 1rem;
+    }
+    .about-banner .about-banner-content h1{
+        margin-bottom: 0.8rem;
+        margin-top: 1rem;
+    }
+    .about-banner .about-banner-content p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .about-banner .about-banner-image{
+        width: 100%;
+    }
 }
