@@ -63,5 +63,27 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    .founder{
+        padding: 1.5rem 1rem 4rem 1rem;
+    }
+    .founder .glass-element img{
+        width: 80%;
+    }
+    .founder h2{
+        margin-bottom: 2rem;
+    }
+    .founder .founder-top{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .founder .founder-top-image{
+        width: 80%;
+    }
+    .founder .founder-top-content{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .founder p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
 }

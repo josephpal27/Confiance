@@ -5,12 +5,10 @@
     background-color: #5b2096;
     padding: 4rem 0 4rem 7%;
     height: 88vh;
-    position: relative;
 }
 .about-banner .about-banner-content{
     width: 57%;
     color: #fff;
-    z-index: 2;
 }
 .about-banner .about-banner-content h1{
     margin-bottom: 1.5rem;
@@ -25,7 +23,6 @@
 }
 .about-banner .about-banner-image{
     width: 40%;
-    z-index: 2;
 }
 .about-banner .about-banner-image img{
     width: 100%;
