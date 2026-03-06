@@ -202,5 +202,81 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+  .timeline{
+    padding: 1rem 1rem 1.5rem 1rem;
+  }
+  .timeline h3{
+    margin-bottom: 2.5rem;
+  }
+  .timeline-wrapper{
+    position: relative;
+  }
+  .timeline-wrapper::before{
+    left: 0.5rem;
+    width: 2px;
+  }
+  .timeline-row{
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+  }
+  .timeline-left,
+  .timeline-right{
+    width: 100%;
+  }
+  .timeline-center{
+    width: 100%;
+    justify-content: left;
+    position: absolute;
+    left: 0;
+    margin-top: 0.9rem;
+  }
+  .timeline-center .dot{
+    width: 16px;
+    height: 16px;
+    box-shadow: 0 0 0 7px rgba(255,255,255,0.25);
+  }
+  .timeline-left{
+    padding-right: 0;
+  }
+  .timeline-right{
+    padding-left: 0;
+  }
+  .timeline-right span{
+    font-size: calc(1.2rem + 0.5vw);
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  .timeline-right p{
+    line-height: 1.5;
+    font-size: calc(0.9rem + 0.5vw);
+    margin-bottom: 1rem;
+  }
+  .timeline-left .year{
+    font-size: calc(1.7rem + 0.5vw);
+  }
+  .timeline-left .image-circle{
+    width: 70%;
+    margin-top: 1.2rem;
+  }
+  .timeline-left .image-circle{
+    margin-left: 13%;
+  }
+  .timeline-row.reverse .timeline-left .image-circle{
+    margin-right: 0;
+    margin-left: 13%;
+  }
+  .timeline-row.reverse{
+    flex-direction: column;
+  }
+  .timeline-row.reverse .timeline-left{
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .timeline-row.reverse .timeline-right{
+    text-align: left;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
