@@ -15,7 +15,7 @@ const OurClients = () => {
     //     "/images/clients/3.avif",
     // ];
 
-    const clientImages = Array.from({ length: 104 }, (_, i) => `/images/clients/${i + 1}.avif`);
+    const clientImages = Array.from({ length: 117 }, (_, i) => `/images/clients/${i + 1}.avif`);
 
     // const blackImages = [31, 32, 54, 69, 75, 83];
 
