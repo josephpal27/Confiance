@@ -4,7 +4,7 @@ const ServicesBanner = () => {
     return (
         <>
             <section className="services-banner">
-                <img src="/images/banners/home-banner.avif" alt="Banner" loading="eager" />
+                <img src="/images/banners/services-banner.png" alt="Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">Our Services</h1>
                 </div>
