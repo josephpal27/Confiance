@@ -1,49 +1,72 @@
+import { FaArrowRight } from 'react-icons/fa6';
 import './OfferedServices.css';
 
 let servicesData = [
     {
         id: 1,
         title: "Long-Term Retainer Partnerships",
+        desc: "Lorem ipsum dolor sit amet cons adipicing elit dolor amet. Lorem, ipsum dolor.",
+        image: "/images/icons/1.png",
     },
     {
         id: 2,
         title: "Strategic Reputation Advisory",
+        desc: "Lorem ipsum dolor sit amet cons adipicing elit dolor amet. Lorem, ipsum dolor.",
+        image: "/images/icons/2.png",
     },
     {
         id: 3,
         title: "Founder Thought Leadership",
+        desc: "Lorem ipsum dolor sit amet cons adipicing elit dolor amet. Lorem, ipsum dolor.",
+        image: "/images/icons/3.png",
     },
     {
         id: 4,
         title: "Corporate Brand-Building",
+        desc: "Lorem ipsum dolor sit amet cons adipicing elit dolor amet. Lorem, ipsum dolor.",
+        image: "/images/icons/4.png",
     },
     {
         id: 5,
         title: "Media Strategy & High-Trust Relations",
+        desc: "Lorem ipsum dolor sit amet cons adipicing elit dolor amet. Lorem, ipsum dolor.",
+        image: "/images/icons/5.png",
     },
     {
         id: 6,
         title: "Growth, Funding & Transition Communications",
+        desc: "Lorem ipsum dolor sit amet cons adipicing elit dolor amet. Lorem, ipsum dolor.",
+        image: "/images/icons/6.png",
     },
     {
         id: 7,
         title: "Investor Communications",
+        desc: "Lorem ipsum dolor sit amet cons adipicing elit dolor amet. Lorem, ipsum dolor.",
+        image: "/images/icons/7.png",
     },
     {
         id: 8,
         title: "Crisis Management",
+        desc: "Lorem ipsum dolor sit amet cons adipicing elit dolor amet. Lorem, ipsum dolor.",
+        image: "/images/icons/8.png",
     },
     {
         id: 9,
         title: "Influencer Engagement",
+        desc: "Lorem ipsum dolor sit amet cons adipicing elit dolor amet. Lorem, ipsum dolor.",
+        image: "/images/icons/9.png",
     },
     {
         id: 10,
         title: "Brand Events PR",
+        desc: "Lorem ipsum dolor sit amet cons adipicing elit dolor amet. Lorem, ipsum dolor.",
+        image: "/images/icons/10.png",
     },
     {
         id: 11,
         title: "Tourism Representation (for International Tourism Boards)",
+        desc: "Lorem ipsum dolor sit amet cons adipicing elit dolor amet. Lorem, ipsum dolor.",
+        image: "/images/icons/11.png",
     },
 ]
 
@@ -57,14 +80,20 @@ const OfferedServices = () => {
                 </div>
 
                 <div className="services-row">
-                    <div className="service-box">
-                        <span>Long-Term Retainer Partnerships</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div>
-                            <a href="#">Read More </a>
-                            <img src="" alt="" loading="" />
-                        </div>
-                    </div>
+                    {
+                        servicesData.map((item, index) => {
+                            return (
+                                <div className="service-box" key={index}>
+                                    <span>{item.title}</span>
+                                    <p>{item.desc}</p>
+                                    <div className="card-foot">
+                                        <a href="#">Read More <FaArrowRight className="icon" /></a>
+                                        <img src={item.image} alt={item.title} loading="lazy" />
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
                 </div>
             </section>
         </>

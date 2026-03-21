@@ -3,6 +3,66 @@
     padding: 4.5rem 7% 3rem 7%;
     color: #fff;
 }
+.services-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-head p{
+    font-size: calc(0.65rem + 0.5vw);
+    text-align: center;
+    width: 65%;
+    margin-top: 1rem;
+}
+.services-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    margin-top: 2.5rem;
+}
+.services-row .service-box{
+    width: 22%;
+    padding: 1.5rem;
+    border-radius: 30px;
+    background-color: #310f54;
+    margin-bottom: 3rem;
+    transition: background-color 0.3s ease;
+}
+.services-row .service-box:hover{
+    background-color: #af7335;
+}
+.services-row .service-box span{
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 700;
+}
+.services-row .service-box p{
+    font-size: calc(0.4rem + 0.5vw);
+    margin-top: 0.8rem;
+}
+.services-row .service-box .card-foot{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services-row .service-box .card-foot a{
+    font-size: calc(0.5rem + 0.5vw);
+    text-decoration: none;
+    color: #fff;
+}
+.services-row .service-box .card-foot a .icon{
+    font-size: calc(0.35rem + 0.5vw);
+    margin-left: 4px;
+    transition: margin-left 0.2s ease;
+}
+.services-row .service-box .card-foot a:hover .icon{
+    margin-left: 8px;
+}
+.services-row .service-box .card-foot img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
