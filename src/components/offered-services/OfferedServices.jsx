@@ -51,20 +51,20 @@ const OfferedServices = () => {
     return (
         <>
             <section className="offered-services">
-                <h2 data-aos="fade-right">Services We Offer</h2>
+                <div className="services-head">
+                    <h2>Services We Offer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore pariatur unde quam maxime nisi magni voluptatum deserunt perferendis amet reiciendis.</p>
+                </div>
 
                 <div className="services-row">
-                    {
-                        servicesData.map((item, index) => {
-                            return (
-                                <div className="service-box" key={index} data-aos="fade" data-aos-once="true">
-                                    <p>
-                                        {item.title}
-                                    </p>
-                                </div>
-                            )
-                        })
-                    }
+                    <div className="service-box">
+                        <span>Long-Term Retainer Partnerships</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div>
+                            <a href="#">Read More </a>
+                            <img src="" alt="" loading="" />
+                        </div>
+                    </div>
                 </div>
             </section>
         </>
