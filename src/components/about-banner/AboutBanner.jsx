@@ -11,7 +11,7 @@ const AboutBanner = () => {
                         <p data-aos="fade">Confiance was shaped to reset this approach — by working closely with founders and leadership teams, extracting substance from boardroom conversations, and converting it into disciplined, credible public narratives. Today, it functions as a strategic Communications studio that operates as a long-term reputation partner, embedding into decision-making processes and shaping market perception with judgement, restraint, and institutional rigour.</p>
                     </div>
                     <div className="about-banner-image">
-                        <img src={employess} alt="Employees" loading="lazy" />
+                        <img src={employess} alt="Employees" loading="lazy" data-aos="fade" />
                     </div>
             </section>
         </>

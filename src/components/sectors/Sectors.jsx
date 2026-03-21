@@ -42,7 +42,7 @@ const Sectors = () => {
                 </div>
 
                 {rows.map((row, rowIndex) => (
-                    <div className="sectors-row" key={rowIndex}>
+                    <div className="sectors-row" key={rowIndex} data-aos="fade" data-aos-once="true">
                         {row.map((item) => (
                             <div className="sector-box" key={item.id}>
                                 <img src={item.image} alt={item.title} loading="lazy" />

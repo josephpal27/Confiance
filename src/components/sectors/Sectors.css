@@ -1,6 +1,6 @@
 .sectors{
     background-color: #5b2096;
-    padding: 0 7% 4rem 7%;
+    padding: 0 7% 4.5rem 7%;
     color: #fff;
 }
 .sectors-head{
@@ -54,13 +54,53 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .sectors{
-        padding: 1rem 7% 3.5rem 7%;
+        padding: 0 7% 4rem 7%;
+    }
+    .sectors-head{
+        margin-bottom: 2.2rem;
+    }
+    .sectors-head p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 0.9rem;
+    }
+    .sectors .sectors-row{
+        padding: 0.9rem;
+        border-radius: 13px;
+        margin-bottom: 1.4rem;
+    }
+    .sectors .sector-box img{
+        width: 55px;
+        height: 55px;
+    }
+    .sectors .sector-box p{
+        margin-top: 0.9rem;
+        font-size: calc(0.6rem + 0.5vw);
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .sectors{
-        padding: 0.5rem 7% 3rem 7%;
+        padding: 0 7% 3.5rem 7%;
+    }
+    .sectors-head{
+        margin-bottom: 1.8rem;
+    }
+    .sectors-head p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+    .sectors .sectors-row{
+        padding: 0.8rem;
+        border-radius: 11px;
+        margin-bottom: 1.3rem;
+    }
+    .sectors .sector-box img{
+        width: 47px;
+        height: 47px;
+    }
+    .sectors .sector-box p{
+        margin-top: 0.8rem;
+        font-size: calc(0.55rem + 0.5vw);
     }
 }
 

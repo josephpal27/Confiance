@@ -83,7 +83,7 @@ const OfferedServices = () => {
                     {
                         servicesData.map((item, index) => {
                             return (
-                                <div className="service-box" key={index}>
+                                <div className="service-box" key={index} data-aos="fade" data-aos-duration="400" data-aos-once="true">
                                     <span>{item.title}</span>
                                     <p>{item.desc}</p>
                                     <div className="card-foot">
