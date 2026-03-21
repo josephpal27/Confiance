@@ -1,31 +1,54 @@
 .sectors{
     background-color: #5b2096;
-    padding: 1.5rem 7% 4rem 7%;
+    padding: 0 7% 4rem 7%;
     color: #fff;
 }
-.sectors h3{
+.sectors-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+.sectors-head p{
+    font-size: calc(0.65rem + 0.5vw);
     text-align: center;
+    width: 65%;
+    margin-top: 1rem;
 }
 .sectors .sectors-row{
-    margin-top: 2.5rem;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 2%;
+    padding: 1rem;
+    background: linear-gradient(to bottom, #3f126d, #772ebf);
+    border-radius: 15px;
+    box-shadow: rgba(29, 29, 29, 0.408) 0px 5px 12px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    transition: all 0.2s ease;
 }
 .sectors .sector-box{
-    background-color: #300c52;
-    margin-bottom: 1.7rem;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: rgba(255, 255, 255, 0.278) 0px 3px 8px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.sectors .sector-box:hover{
-    box-shadow: rgba(255, 255, 255, 0.521) 0px 3px 8px;
+.sectors .sector-box img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    scale: 1;
+    transition: scale 0.2s ease;
 }
-.sectors .sector-box span{
+.sectors .sector-box:hover img{
+    scale: 1.1;
+}
+.sectors .sector-box p{
+    margin: 0;
+    margin-top: 1rem;
+    font-weight: 600;
     font-size: calc(0.65rem + 0.5vw);
-    font-weight: 500;
+    text-align: center;
 }
 
 /* Media Queries */
@@ -33,49 +56,16 @@
     .sectors{
         padding: 1rem 7% 3.5rem 7%;
     }
-    .sectors .sectors-row{
-        margin-top: 2.3rem;
-    }
-    .sectors .sector-box{
-        margin-bottom: 1.5rem;
-        padding: 1.3rem;
-        border-radius: 9px;
-    }
-    .sectors .sector-box span{
-        font-size: calc(0.6rem + 0.5vw);
-    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .sectors{
         padding: 0.5rem 7% 3rem 7%;
     }
-    .sectors .sectors-row{
-        margin-top: 2.1rem;
-    }
-    .sectors .sector-box{
-        margin-bottom: 1.3rem;
-        padding: 1.1rem;
-        border-radius: 8px;
-    }
-    .sectors .sector-box span{
-        font-size: calc(0.55rem + 0.5vw);
-    }
 }
 
 @media screen and (max-width: 768px) {
     .sectors{
         padding: 0 1rem 3rem 1rem;
-    }
-    .sectors .sectors-row{
-        margin-top: 1.5rem;
-    }
-    .sectors .sector-box{
-        width: 100%;
-        margin-bottom: 1rem;
-        padding: 1.5rem 1rem;
-    }
-    .sectors .sector-box span{
-        font-size: calc(1rem + 0.5vw);
     }
 }
