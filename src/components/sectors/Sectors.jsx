@@ -2,7 +2,7 @@ import './Sectors.css';
 
 let sectorsData = [
     { id: 1, title: "Tourism", image: "/images/icons/sectors/1.png", },
-    { id: 2, title: "Hospitality", image: "/images/icons/sectors/2.png", },
+    { id: 2, title: "Hospitality", image: "/images/icons/sectors/2.avif", },
     { id: 3, title: "Luxury", image: "/images/icons/sectors/3.png", },
     { id: 4, title: "Deep-Tech", image: "/images/icons/sectors/4.png", },
     { id: 5, title: "Venture Capital", image: "/images/icons/sectors/5.png", },
