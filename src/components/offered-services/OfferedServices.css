@@ -152,7 +152,41 @@
 
 @media screen and (max-width: 768px) {
     .offered-services{
-        padding: 2rem 1rem 3rem 1rem;
+        padding: 1.5rem 1rem 3rem 1rem;
     }
-
+    .services-head p{
+        font-size: calc(0.9rem + 0.5vw);
+        width: 100%;
+        margin-top: 0;
+    }
+    .services-row{
+        gap: 0;
+        margin-top: 1rem;
+    }
+    .services-row .service-box{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 25px;
+        margin-bottom: 1.3rem;
+    }
+    .services-row .service-box span{
+        font-size: calc(0.95rem + 0.5vw);
+    }
+    .services-row .service-box p{
+        font-size: calc(0.75rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
+    .services-row .service-box .card-foot{
+        margin-top: 1rem;
+    }
+    .services-row .service-box .card-foot a{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .services-row .service-box .card-foot a .icon{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .services-row .service-box .card-foot img{
+        width: 40px;
+        height: 40px;
+    }
 }
