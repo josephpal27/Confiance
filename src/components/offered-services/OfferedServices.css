@@ -152,7 +152,7 @@
 
 @media screen and (max-width: 768px) {
     .offered-services{
-        padding: 1.5rem 1rem 3rem 1rem;
+        padding: 1.5rem 1rem 1.7rem 1rem;
     }
     .services-head p{
         font-size: calc(0.9rem + 0.5vw);

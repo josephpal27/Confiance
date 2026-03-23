@@ -106,6 +106,32 @@
 
 @media screen and (max-width: 768px) {
     .sectors{
-        padding: 0 1rem 3rem 1rem;
+        padding: 0 1rem 2rem 1rem;
+    }
+    .sectors-head{
+        margin-bottom: 1.2rem;
+    }
+    .sectors-head p{
+        font-size: calc(0.9rem + 0.5vw);
+        width: 100%;
+        margin-top: 0;
+    }
+    .sectors .sectors-row{
+        gap: 0;
+        padding: 1.2rem 1.2rem 0 1.2rem;
+        border-radius: 20px;
+        margin-bottom: 1.4rem;
+    }
+    .sectors .sector-box{
+        width: 50%;
+        margin-bottom: 1.7rem;
+    }
+    .sectors .sector-box img{
+        width: 50px;
+        height: 50px;
+    }
+    .sectors .sector-box p{
+        margin-top: 0.7rem;
+        font-size: calc(0.9rem + 0.5vw);
     }
 }
