@@ -99,13 +99,6 @@ export const reviewsData = [
       "Confiance is a result-oriented organization that really knows their work. Bushra is go-getter, a doer, a problem solver and is a great asset for an individual or company who needs professional expertise in the digital and communication space!",
   },
   {
-    image: "/images/reviews/15.avif",
-    name: "Nidhi Agarwal",
-    designation: "Former Founder, KAARYAH",
-    review:
-      "Confiance is focused and sharp like an arrow organization. They have the knack of prioritizing the most effective tactics from others and go after it full force. There is no barrier they cannot overcome and there is no effort they are unwilling to attempt. High ownership and very adaptable. An excellent commercial negotiator. Bushra’s EQ and intuition kick in effectively to cover that to her commercial advantage in rate negations and barters. She made some unbelievable deals to KAARYAH and some moon shot alliances possible which were a win-win, ergo sustained for years.",
-  },
-  {
     image: "/images/reviews/16.avif",
     name: "Sudeep Singh",
     designation: "CEO & Chief Evangelist, GoWork",
