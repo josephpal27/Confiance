@@ -56,10 +56,10 @@
 /* Media Queries */
 @media (max-width: 992px) {
   .navbar {
-    padding: 0.5rem 1rem !important;
+    padding: 0.4rem 1rem !important;
   }
   .navbar .nav-brand img {
-    width: 55px;
+    width: 50px;
   }
   .navbar-toggler {
     border: none !important;

@@ -28,6 +28,7 @@
     border-bottom-left-radius: 90px;
     border: 1px solid #d6954e;
     background-color: #542897;
+    position: relative;
 }
 .impact-created .impact-image-container{
     display: flex;
@@ -44,6 +45,37 @@
 }
 .impact-created .impact-images img{
     width: 100%;
+}
+
+.impact-controls{
+    position: absolute;
+    bottom: 1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+    z-index: 5;
+}
+.impact-controls button{
+    background: #fff;
+    color: #542897;
+    border: none;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: calc(0.55rem + 0.5vw);
+    transition: 0.2s;
+}
+.impact-controls button:hover{
+    background: #d6954e;
+    color: #fff;
+}
+.impact-controls button:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 /* Media Queries */
@@ -67,6 +99,16 @@
     .impact-created .impact-image-container .impact-left,
     .impact-created .impact-image-container .impact-right{
         gap: 0.9rem;
+    }
+
+    .impact-controls{
+        bottom: 1.1rem;
+        gap: 0.9rem;
+    }
+    .impact-controls button{
+        width: 32px;
+        height: 32px;
+        font-size: calc(0.5rem + 0.5vw);
     }
 }
 
@@ -94,11 +136,21 @@
     .impact-created .impact-image-container .impact-right{
         gap: 0.8rem;
     }
+
+    .impact-controls{
+        bottom: 0.9rem;
+        gap: 0.8rem;
+    }
+    .impact-controls button{
+        width: 29px;
+        height: 29px;
+        font-size: calc(0.45rem + 0.5vw);
+    }
 }
 
 @media screen and (max-width: 768px) {
     .impact-created{
-        padding: 1.5rem 1rem 1.7rem 1rem;
+        padding: 1.5rem 1rem 3rem 1rem;
     }
     .impact-created .impact-content{
         width: 100%;
@@ -125,5 +177,15 @@
     .impact-created .impact-image-container .impact-left,
     .impact-created .impact-image-container .impact-right{
         gap: 0.7rem;
+    }
+
+    .impact-controls{
+        bottom: -3rem;
+        gap: 1.3rem;
+    }
+    .impact-controls button{
+        width: 27px;
+        height: 27px;
+        font-size: calc(0.75rem + 0.5vw);
     }
 }
