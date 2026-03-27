@@ -39,6 +39,36 @@ export const leftArticles = [
     image: "/images/impact-created/14.avif",
     link: "https://www.thehindubusinessline.com/companies/euronics-commences-operations-at-new-manufacturing-plant-in-gurugram/article68336677.ece",
   },
+  {
+    id: 9,
+    image: "/images/impact-created/17.avif",
+    link: "https://techcrunch.com/2025/10/15/indias-kuku-snags-85m-as-mobile-content-wars-intensify/",
+  },
+  {
+    id: 10,
+    image: "/images/impact-created/18.avif",
+    link: "https://www.instagram.com/p/DUnDQUrEhRL/?img_index=1&igsh=cndyMm0xZ3cwbHB1",
+  },
+  {
+    id: 11,
+    image: "/images/impact-created/21.avif",
+    link: "https://www.thehindubusinessline.com/economy/agri-business/demand-for-natural-products-has-surged-in-the-past-decade-just-herbs-ceo/article68442593.ece",
+  },
+  {
+    id: 12,
+    image: "/images/impact-created/22.avif",
+    link: "https://inc42.com/startups/how-just-herbs-grew-5x-to-hit-inr-100-cr-revenue-mark-in-3-years-post-marico-takeover/",
+  },
+  {
+    id: 13,
+    image: "/images/impact-created/25.avif",
+    link: "https://economictimes.indiatimes.com/small-biz/entrepreneurship/binny-bansal-backed-planetspark-plans-to-go-public-in-two-years/articleshow/118204380.cms?from=mdr",
+  },
+  {
+    id: 14,
+    image: "/images/impact-created/26.avif",
+    link: "https://inc42.com/features/planetspark-breakeven-profit-ipo-edtech-funding-winter/",
+  },
 ];
 
 export const rightArticles = [
@@ -81,5 +111,35 @@ export const rightArticles = [
     id: 8,
     image: "/images/impact-created/16.avif",
     link: "https://inc42.com/buzz/procmart-elevates-finance-strategy-head-sachin-jain-to-cofounder/",
+  },
+  {
+    id: 9,
+    image: "/images/impact-created/19.avif",
+    link: "https://youtube.com/watch?v=ZNzgA__UTm8",
+  },
+  {
+    id: 10,
+    image: "/images/impact-created/20.avif",
+    link: "https://www.financialexpress.com/business/brandwagon/chai-pe-charcha-with-brandwagon-165/3536952/",
+  },
+  {
+    id: 11,
+    image: "/images/impact-created/23.avif",
+    link: "https://economictimes.indiatimes.com/small-biz/sme-sector/how-beyond-appliances-is-crafting-an-ai-powered-future-of-the-indian-kitchen/articleshow/117074947.cms?from=mdr",
+  },
+  {
+    id: 12,
+    image: "/images/impact-created/24.avif",
+    link: "https://www.livemint.com/companies/start-ups/smart-kitchen-appliances-smart-chimneys-hobs-ai-powered-cooking-assistant-iot-emabled-products-11736480895074.html",
+  },
+  {
+    id: 13,
+    image: "/images/impact-created/27.avif",
+    link: "https://www.businesstoday.in/latest/trends/story/children-to-pitch-biz-ideas-to-sharks-as-planetspark-announces-shark-tank-spin-off-315849-2021-12-16",
+  },
+  {
+    id: 14,
+    image: "/images/impact-created/28.avif",
+    link: "https://youtube.com/watch?v=EacxetbV_aU",
   },
 ];
