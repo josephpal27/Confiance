@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { leftArticles, rightArticles } from "./articlesData";
+import { leftArticles, rightArticles } from "../../data/articlesData";
 import newsImage from "../../assets/images/news.avif";
 import "./ImpactCreated.css";
 import ArticleCard from "./ArticleCard";

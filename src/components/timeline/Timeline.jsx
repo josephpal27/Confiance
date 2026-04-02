@@ -1,5 +1,5 @@
 import './Timeline.css';
-import { timelineData } from './TimelineData';
+import { timelineData } from '../../data/TimelineData';
 
 const Timeline = () => {
     return (
