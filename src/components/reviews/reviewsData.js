@@ -154,4 +154,25 @@ export const reviewsData = [
     review:
       "We had the pleasure of working with Confiance communication for the past 2 years, and from day one, their team demonstrated an incredible understanding of our brand and our goals. The team’s creativity, professionalism, and dedication to getting results were evident at every stage. They have a deep knowledge of the media landscape and provided us with invaluable insights, ultimately helping us secure key press coverage and build stronger relationships with influencers in our industry.",
   },
+  {
+    image: "/images/reviews/24.avif",
+    name: "Arush Chopra",
+    designation: "Co-Founder, Just Herbs (acquired by Marico)",
+    review:
+      "Confiance has been a reliable Communications partner through an important chapter of the Just Herbs journey. They hit the ground running with a structured approach — clear on our narrative, the industry context, and the stakeholders we needed to reach. That clarity carried through in the quality and consistency of their output. Exactly the kind of partner you want in your corner during high-stakes and pivotal phases.",
+  },
+  {
+    image: "/images/reviews/25.avif",
+    name: "Robin Clegg",
+    designation: "Media and Communications Head, The Ocean Cleanup",
+    review:
+      "Confiance has been a strong and reliable PR Agency in advancing The Ocean Cleanup's mission. Their work consistently translates complex environmental challenges into clear, compelling stories that resonate with both the public and key stakeholders. From securing high-quality media coverage to shaping impactful narratives, they demonstrate a sharp understanding of both the media landscape and the urgency of ocean conservation.",
+  },
+  {
+    image: "/images/reviews/26.avif",
+    name: "Christopher Demetriou",
+    designation: "Head of Global Communications, Future Coal",
+    review:
+      "We had a fantastic experience working with Confiance PR on the launch of our India chapter. Their team was highly professional, responsive, and delivered a huge amount in a very short turnaround. They quickly identified the right journalists and secured excellent media coverage for us. On top of that, they were a pleasure to work with throughout the process.",
+  },
 ];
