@@ -137,9 +137,9 @@ const ImpactCreated = () => {
           <div className="impact-left">
             <ArticleCard article={visibleLeft[0]} flip={leftFlip} delay={0} />
 
-            <div className="article-card fixed-news">
+            {/* <div className="article-card fixed-news">
               <img src={newsImage} alt="Breaking News" loading="lazy" />
-            </div>
+            </div> */}
 
             <ArticleCard article={visibleLeft[1]} flip={leftFlip} delay={0.2} />
           </div>
