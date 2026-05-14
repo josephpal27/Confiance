@@ -6,8 +6,8 @@ const ServicesBanner = () => {
             <section className="services-banner">
                 <img src="/images/banners/services-banner.avif" alt="Banner" loading="eager" />
                 <div className="banner-content">
-                    <h1 data-aos="fade-up">Our Services</h1>
-                    <p data-aos="fade">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum viverra maecenas accumsan lacus vel facilisis.</p>
+                    <h1 data-aos="fade-up">What We Do</h1>
+                    <p data-aos="fade">We deliver strategic PR & reputation advisory and execution support for founders, brands, institutions, and high-growth businesses. We combine media intelligence, narrative strategy, and targeted stakeholder Communications to build visibility that strengthens credibility, trust, and long-term market relevance.</p>
                 </div>
             </section>
         </>
