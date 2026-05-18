@@ -88,7 +88,7 @@ const OfferedServices = () => {
             <section className="offered-services">
                 <div className="services-head">
                     <h2 data-aos="fade-up">Services We Offer</h2>
-                    <p data-aos="fade">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore pariatur unde quam maxime nisi magni voluptatum deserunt perferendis amet reiciendis.</p>
+                    <p data-aos="fade">Solutions tailored for different PR needs across stages of growth and reputation.</p>
                 </div>
 
                 <div className="services-row">

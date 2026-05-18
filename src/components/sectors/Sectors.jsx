@@ -39,7 +39,7 @@ const Sectors = () => {
             <section className="sectors">
                 <div className="sectors-head">
                     <h3 data-aos="fade-up">Sectors</h3>
-                    <p data-aos="fade">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore pariatur unde quam maxime nisi magni voluptatum deserunt perferendis amet reiciendis.</p>
+                    <p data-aos="fade">Cross-sector capabilities built through work with founders, brands, public figures, and institutions.</p>
                 </div>
 
                 {rows.map((row, rowIndex) => (
