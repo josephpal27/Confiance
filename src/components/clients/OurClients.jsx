@@ -9,7 +9,7 @@ import "swiper/css/effect-coverflow";
 
 const OurClients = () => {
 
-    const clientImages = Array.from({ length: 120 }, (_, i) => `/images/clients/${i + 1}.avif`);
+    const clientImages = Array.from({ length: 125 }, (_, i) => `/images/clients/${i + 1}.avif`);
 
     return (
         <>
