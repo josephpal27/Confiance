@@ -175,4 +175,11 @@ export const reviewsData = [
     review:
       "We had a fantastic experience working with Confiance PR on the launch of our India chapter. Their team was highly professional, responsive, and delivered a huge amount in a very short turnaround. They quickly identified the right journalists and secured excellent media coverage for us. On top of that, they were a pleasure to work with throughout the process.",
   },
+  {
+    image: "/images/reviews/27.avif",
+    name: "Gurmeet Kaur",
+    designation: "Co-Founder, Ubalance Naturals",
+    review:
+      "At Ubalance Naturals, we believe that authentic brands deserve authentic stories. While our partnership with Confiance is still in its early stages, the team has already demonstrated a strong commitment to understanding our purpose and bringing it to life through thoughtful storytelling. Their proactive, highly engaged, and professional approach has helped us strengthen our brand presence while staying true to our mission of empowering holistic well-being. We look forward to building on this promising journey together.",
+  },
 ];
