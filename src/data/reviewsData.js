@@ -182,4 +182,11 @@ export const reviewsData = [
     review:
       "At Ubalance Naturals, we believe that authentic brands deserve authentic stories. While our partnership with Confiance is still in its early stages, the team has already demonstrated a strong commitment to understanding our purpose and bringing it to life through thoughtful storytelling. Their proactive, highly engaged, and professional approach has helped us strengthen our brand presence while staying true to our mission of empowering holistic well-being. We look forward to building on this promising journey together.",
   },
+  {
+    image: "/images/reviews/28.avif",
+    name: "Pritish Nelleri",
+    designation: "Co-Founder & COO, Khyaal",
+    review:
+      "At Khyaal, our purpose is simple: to make the lives of seniors happier, healthier, safer, and more meaningful. We knew that telling this story required more than just a PR agency—it required a partner who genuinely believed in our mission to enrich the lives of seniors across India. Confiance invested the time to understand who we are, what we stand for, and the impact we aspire to create for millions of seniors. They helped us tell stories that reflected our purpose with authenticity, empathy, and credibility",
+  },
 ];

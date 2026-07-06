@@ -1,5 +1,6 @@
 import './OurClients.css';
 
+import { clientsData } from '../../data/clientsData';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, EffectCoverflow } from "swiper/modules";
 
@@ -9,7 +10,7 @@ import "swiper/css/effect-coverflow";
 
 const OurClients = () => {
 
-    const clientImages = Array.from({ length: 124 }, (_, i) => `/images/clients/${i + 1}.avif`);
+    // const clientImages = Array.from({ length: 124 }, (_, i) => `/images/clients/${i + 1}.avif`);
 
     return (
         <>
@@ -46,16 +47,16 @@ const OurClients = () => {
                             768: { slidesPerView: 4 },
                         }}
                     >
-                        {clientImages.map((img, index) => {
+                        {clientsData.map((img, index) => {
                             // const imageNumber = index + 1; // because index starts at 0
 
                             return (
                                 <SwiperSlide key={index}>
                                     <div className="image-box">
                                         <img
-                                            src={img}
+                                            src={img.logo}
                                             loading="lazy"
-                                            alt="client"
+                                            alt={`Client ${index + 1}`}
                                             // className={blackImages.includes(imageNumber) ? "black" : ""}
                                         />
                                     </div>
