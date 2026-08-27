@@ -124,7 +124,6 @@ export const clientsData = [
   { logo: "/images/clients/122.avif" },
   { logo: "/images/clients/123.avif" },
   { logo: "/images/clients/124.avif" },
-
   { logo: "/images/clients/match-me.avif" },
   { logo: "/images/clients/cotrav.png" },
   { logo: "/images/clients/finny.avif" },
