@@ -6,7 +6,7 @@ export const clientsData = [
   { logo: "/images/clients/5.avif" },
   { logo: "/images/clients/6.avif" },
   { logo: "/images/clients/7.avif" },
-  { logo: "/images/clients/guneet-1.png" },
+  { logo: "/images/clients/guneet.avif" },
   { logo: "/images/clients/8.avif" },
   { logo: "/images/clients/9.avif" },
   { logo: "/images/clients/10.avif" },
@@ -123,5 +123,9 @@ export const clientsData = [
   { logo: "/images/clients/121.avif" },
   { logo: "/images/clients/122.avif" },
   { logo: "/images/clients/123.avif" },
-  { logo: "/images/clients/124.avif" }
+  { logo: "/images/clients/124.avif" },
+
+  { logo: "/images/clients/match-me.avif" },
+  { logo: "/images/clients/cotrav.png" },
+  { logo: "/images/clients/finny.avif" },
 ];
