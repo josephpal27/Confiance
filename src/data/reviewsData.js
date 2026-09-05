@@ -189,4 +189,11 @@ export const reviewsData = [
     review:
       "At Khyaal, our purpose is simple: to make the lives of seniors happier, healthier, safer, and more meaningful. We knew that telling this story required more than just a PR agency—it required a partner who genuinely believed in our mission to enrich the lives of seniors across India. Confiance invested the time to understand who we are, what we stand for, and the impact we aspire to create for millions of seniors. They helped us tell stories that reflected our purpose with authenticity, empathy, and credibility",
   },
+  {
+    image: "/images/reviews/29.avif",
+    name: "Dhruv Dhanraj Bahl",
+    designation: "Founder & Managing Partner, Sadev Ventures",
+    review:
+      "Confiance has been a trusted thought partner in shaping Sadev's Strategic Communications -- very methodical and outcome-oriented in their approach. They bring strategic depth and the ability to anticipate the downstream implications of every PR move and opportunity, enabling informed and precise decisions. That has been particularly valuable to us, given the high-stakes environment we operate in.",
+  },
 ];
